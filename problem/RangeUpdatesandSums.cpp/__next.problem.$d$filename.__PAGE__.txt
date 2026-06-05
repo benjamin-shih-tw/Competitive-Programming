@@ -1,0 +1,106 @@
+1:"$Sreact.fragment"
+2:I[34611,["/Competitive-Programming/_next/static/chunks/2g8lz1cprgcp7.js","/Competitive-Programming/_next/static/chunks/2z32efofotom3.js","/Competitive-Programming/_next/static/chunks/3i01rvnfxbdb9.js","/Competitive-Programming/_next/static/chunks/0ho11zlz6i9if.js"],"default"]
+7:I[84112,["/Competitive-Programming/_next/static/chunks/2g8lz1cprgcp7.js","/Competitive-Programming/_next/static/chunks/2z32efofotom3.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+3:Ta4c,#pragma GCC optimize("O3,unroll-loops")
+#include <bits/stdc++.h>
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+using namespace std;
+using ll = long long;
+#define pii pair<ll,ll>
+#define SZ(x) ((ll)(x).size())
+#define ALL(x) (x).begin(),(x).end()
+#define fo(i,n) for(ll i = 0 ; i < (n) ; i++)
+#define foo(i,a,b) for(ll i = (a) ; i <= (b) ; i++)
+#define F first
+#define S second
+#define pb push_back
+#define mid (l+r)/2
+const ll mxn = 2e5+10;
+ll arr[mxn];
+struct node{
+    ll sum,tagadd,tagset;
+}seg[mxn*4];
+struct SEG{
+    void pull(ll now){
+        seg[now].sum = seg[now*2].sum + seg[now*2+1].sum;
+    }
+    void build(ll now,ll l,ll r){
+        if(l == r){
+            seg[now].sum = arr[l];
+            return;
+        }
+        build(now*2,l,mid);
+        build(now*2+1,mid+1,r);
+        pull(now);
+    }
+    void apply_set(ll now,ll l,ll r,ll v){
+        seg[now].sum = (r - l + 1) * v;
+        seg[now].tagadd = 0;
+        seg[now].tagset = v;
+    }
+    void apply_add(ll now,ll l,ll r,ll v){
+        seg[now].sum += (r - l + 1) * v;
+        if(seg[now].tagset){
+            seg[now].tagset += v;
+        }
+        else{
+            seg[now].tagadd += v;
+        }
+    }
+    void pd(ll now,ll l,ll r){
+        if(seg[now].tagset){
+            apply_set(now*2,l,mid,seg[now].tagset);
+            apply_set(now*2+1,mid+1,r,seg[now].tagset);
+            seg[now].tagset = 0;
+        }
+        if(seg[now].tagadd){
+            apply_add(now*2,l,mid,seg[now].tagadd);
+            apply_add(now*2+1,mid+1,r,seg[now].tagadd);
+            seg[now].tagadd = 0;
+        }
+    }
+    void modify(ll now,ll l,ll r,ll ql,ll qr,ll v,ll type){
+        if(ql > r || qr < l) return;
+        if(ql <= l && r <= qr){
+            if(type == 1) apply_add(now,l,r,v);
+            else apply_set(now,l,r,v);
+            return;
+        }
+        pd(now,l,r);
+        modify(now*2,l,mid,ql,qr,v,type);
+        modify(now*2+1,mid+1,r,ql,qr,v,type);
+        pull(now);
+    }
+    ll query(ll now,ll l,ll r,ll ql,ll qr){
+        if(ql > r || qr < l) return 0;
+        if(ql <= l && r <= qr) return seg[now].sum;
+        pd(now,l,r);
+        return query(now*2,l,mid,ql,qr) + query(now*2+1,mid+1,r,ql,qr);
+    }
+}Seg;
+
+int main(){
+ios::sync_with_stdio(0); cin.tie(0);
+    ll n, q;
+    cin >> n >> q;
+    foo(i, 1, n) cin >> arr[i];
+    Seg.build(1, 1, n);
+    
+    while(q--){
+        ll type, a, b;
+        cin >> type >> a >> b;
+        if(type == 1 || type == 2){
+            ll x;
+            cin >> x;
+            Seg.modify(1, 1, n, a, b, x, type);
+        } else {
+            cout << Seg.query(1, 1, n, a, b) << '\n';
+        }
+    }
+    return 0;
+}0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container","style":{"minHeight":"100vh","paddingBottom":"4rem"},"children":["$","$L2",null,{"displayName":"Range Updates and Sums","filename":"RangeUpdatesandSums.cpp","category":"Range Queries","code":"$3","csesLink":"https://cses.fi/problemset/task/1735","difficulty":"Easy","explanationHtml":"<h3>題目解析 (CSES - Range Updates and Sums)</h3>\n<p>此題解目前尚未在 Notion 中撰寫。您可以隨時登入您的 Notion，並在對應的題解頁面中輸入內容。</p>\n<p>本網站會透過 Notion API 自動取得更新，您只需在 Notion 寫完後重新整理本網頁即可！</p>\n<h3>當前狀態</h3>\n<ul>\n<li><strong>程式碼</strong>: 系統已成功在 GitHub 專案中偵測到本題的 C++ 原始碼 <code>RangeUpdatesandSums.cpp</code>，您可在右側（或下方）的分頁中直接查看代碼。</li>\n<li><strong>題解</strong>: 待 Notion 編輯。</li>\n<li><strong>原始題目連結</strong>: <a href=\"https://cses.fi/problemset/task/1735\">前往 CSES 官方查看原題</a></li>\n</ul>\n<blockquote>\n<p><strong>💡 提示 (Note)</strong>\n<strong>Notion 同步原理</strong>：\n當您在 Notion 資料庫中建立一筆項目，並將其 <code>Filename</code> 欄位設定為 <code>RangeUpdatesandSums.cpp</code> 後，此處的內容將會自動被您在 Notion 中所撰寫的精美題解所替代。</p>\n</blockquote>\n","isMock":true}]}],["$L4","$L5"],"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"aP6St16eoaApTBTqcP7ya"}
+4:["$","script","script-0",{"src":"/Competitive-Programming/_next/static/chunks/3i01rvnfxbdb9.js","async":true}]
+5:["$","script","script-1",{"src":"/Competitive-Programming/_next/static/chunks/0ho11zlz6i9if.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null
