@@ -244,8 +244,8 @@ export async function POST(request: Request) {
             try { execSync('git rebase --abort', { cwd: repoDir }); } catch (e) {}
 
             // Setup sparse checkout
-            execSync('git sparse-checkout init --cone', { cwd: repoDir });
-            execSync('git sparse-checkout set "/*" "!/cses/*.cpp" "cses/Untitled-3.cpp"', { cwd: repoDir });
+            execSync('git sparse-checkout init', { cwd: repoDir });
+            execSync('git sparse-checkout set --no-cone "/*" "!/cses/*.cpp" "cses/Untitled-3.cpp"', { cwd: repoDir });
             execSync(`git sparse-checkout add "cses/${task.filename}"`, { cwd: repoDir });
 
             // Git add & commit
@@ -263,7 +263,7 @@ export async function POST(request: Request) {
           } finally {
             // Reapply cleanup rules and remove the file locally
             try {
-              execSync('git sparse-checkout set "/*" "!/cses/*.cpp" "cses/Untitled-3.cpp"', { cwd: repoDir });
+              execSync('git sparse-checkout set --no-cone "/*" "!/cses/*.cpp" "cses/Untitled-3.cpp"', { cwd: repoDir });
             } catch (e) {}
             if (fs.existsSync(filePath)) {
               fs.unlinkSync(filePath);

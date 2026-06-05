@@ -192,8 +192,8 @@ def git_push_solution(project_root, filename, code):
         subprocess.run(['git', 'rebase', '--abort'], cwd=project_root, capture_output=True)
 
         # 4. Configure sparse checkout
-        subprocess.run(['git', 'sparse-checkout', 'init', '--cone'], cwd=project_root, capture_output=True)
-        subprocess.run(['git', 'sparse-checkout', 'set', '/*', '!/cses/*.cpp', 'cses/Untitled-3.cpp'], cwd=project_root, capture_output=True)
+        subprocess.run(['git', 'sparse-checkout', 'init'], cwd=project_root, capture_output=True)
+        subprocess.run(['git', 'sparse-checkout', 'set', '--no-cone', '/*', '!/cses/*.cpp', 'cses/Untitled-3.cpp'], cwd=project_root, capture_output=True)
         subprocess.run(['git', 'sparse-checkout', 'add', os.path.join('cses', filename)], cwd=project_root, capture_output=True)
 
         # 5. Git add & commit
@@ -212,7 +212,7 @@ def git_push_solution(project_root, filename, code):
             print(f"🎉 成功！GitHub 已新增 {filename}")
             
             # Clean up local file and re-apply filters
-            subprocess.run(['git', 'sparse-checkout', 'set', '/*', '!/cses/*.cpp', 'cses/Untitled-3.cpp'], cwd=project_root, capture_output=True)
+            subprocess.run(['git', 'sparse-checkout', 'set', '--no-cone', '/*', '!/cses/*.cpp', 'cses/Untitled-3.cpp'], cwd=project_root, capture_output=True)
             if os.path.exists(file_path):
                 os.remove(file_path)
             print("🧹 本地端已自動隱藏並清除所有歷史 cpp 檔案，保持絕對乾淨！")
@@ -225,7 +225,7 @@ def git_push_solution(project_root, filename, code):
         print(f"❌ Git 處理錯誤: {e}")
         # Fallback cleanup
         try:
-            subprocess.run(['git', 'sparse-checkout', 'set', '/*', '!/cses/*.cpp', 'cses/Untitled-3.cpp'], cwd=project_root, capture_output=True)
+            subprocess.run(['git', 'sparse-checkout', 'set', '--no-cone', '/*', '!/cses/*.cpp', 'cses/Untitled-3.cpp'], cwd=project_root, capture_output=True)
             if os.path.exists(file_path):
                 os.remove(file_path)
         except:
