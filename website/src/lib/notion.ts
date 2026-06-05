@@ -8,6 +8,49 @@ const databaseId = process.env.NOTION_DATABASE_ID;
 const notion = apiKey ? new Client({ auth: apiKey, notionVersion: '2022-06-28' }) : null;
 const n2m = notion ? new NotionToMarkdown({ notionClient: notion }) : null;
 
+if (n2m) {
+  const NOTION_TEXT_COLORS: Record<string, string> = {
+    gray: '#94a3b8',
+    brown: '#c68a4c',
+    orange: '#fb923c',
+    yellow: '#facc15',
+    green: '#4ade80',
+    blue: '#60a5fa',
+    purple: '#c084fc',
+    pink: '#f472b6',
+    red: '#f87171',
+  };
+
+  const NOTION_BG_COLORS: Record<string, string> = {
+    gray: 'rgba(148, 163, 184, 0.15)',
+    brown: 'rgba(198, 138, 76, 0.15)',
+    orange: 'rgba(251, 146, 60, 0.15)',
+    yellow: 'rgba(250, 204, 21, 0.15)',
+    green: 'rgba(74, 222, 128, 0.15)',
+    blue: 'rgba(96, 165, 250, 0.15)',
+    purple: 'rgba(192, 132, 252, 0.15)',
+    pink: 'rgba(244, 114, 182, 0.15)',
+    red: 'rgba(248, 113, 113, 0.15)',
+  };
+
+  const originalAnnotate = n2m.annotatePlainText.bind(n2m);
+  n2m.annotatePlainText = (text: string, annotations: any) => {
+    let annotatedText = originalAnnotate(text, annotations);
+    if (annotations && annotations.color && annotations.color !== 'default') {
+      const color = annotations.color;
+      if (color.endsWith('_background')) {
+        const baseColor = color.replace('_background', '');
+        const bg = NOTION_BG_COLORS[baseColor] || 'rgba(255, 255, 255, 0.1)';
+        annotatedText = `<span style="background-color: ${bg}; padding: 0.15em 0.3em; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.03);">${annotatedText}</span>`;
+      } else {
+        const textColor = NOTION_TEXT_COLORS[color] || color;
+        annotatedText = `<span style="color: ${textColor}; font-weight: 500;">${annotatedText}</span>`;
+      }
+    }
+    return annotatedText;
+  };
+}
+
 export interface NotionSolution {
   filename: string; // The .cpp filename (foreign key)
   title: string;
