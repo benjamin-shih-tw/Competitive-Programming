@@ -206,20 +206,16 @@ export default function Dashboard({ cppFiles, notionSolutions, isNotionConfigure
           </p>
         </div>
 
-        <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', alignItems: 'center' }}>
           <button 
             onClick={() => {
               setShowCsesSync(!showCsesSync);
               if (showSetupGuide) setShowSetupGuide(false);
             }}
-            style={{
-              ...styles.guideButton,
-              borderColor: showCsesSync ? 'var(--primary-accent)' : 'var(--border-color)',
-              color: showCsesSync ? '#d8b4fe' : 'var(--text-primary)',
-            }}
-            className="glass-panel"
+            className={showCsesSync ? "btn-3d-purple" : "btn-3d-dark"}
+            style={{ fontSize: '0.85rem' }}
           >
-            <RefreshCw size={18} className={csesLoading || syncing ? 'animate-spin' : ''} />
+            <RefreshCw size={16} className={csesLoading || syncing ? 'animate-spin' : ''} />
             {showCsesSync ? '隱藏同步區' : 'CSES 狀態同步'}
           </button>
           
@@ -228,14 +224,10 @@ export default function Dashboard({ cppFiles, notionSolutions, isNotionConfigure
               setShowSetupGuide(!showSetupGuide);
               if (showCsesSync) setShowCsesSync(false);
             }}
-            style={{
-              ...styles.guideButton,
-              borderColor: showSetupGuide ? 'var(--primary-accent)' : 'var(--border-color)',
-              color: showSetupGuide ? '#d8b4fe' : 'var(--text-primary)',
-            }}
-            className="glass-panel"
+            className={showSetupGuide ? "btn-3d-purple" : "btn-3d-dark"}
+            style={{ fontSize: '0.85rem' }}
           >
-            <HelpCircle size={18} />
+            <HelpCircle size={16} />
             {showSetupGuide ? '隱藏設定說明' : 'Notion 連線設定'}
           </button>
         </div>
@@ -302,19 +294,11 @@ export default function Dashboard({ cppFiles, notionSolutions, isNotionConfigure
             <button 
               onClick={handleCheckCses}
               disabled={csesLoading || !csesCookie}
+              className="btn-3d-purple"
               style={{
-                background: 'var(--primary-accent)',
-                color: '#fff',
-                border: 'none',
-                padding: '0.65rem 1.5rem',
-                borderRadius: '8px',
                 cursor: !csesCookie || csesLoading ? 'not-allowed' : 'pointer',
                 opacity: !csesCookie || csesLoading ? 0.6 : 1,
-                fontWeight: 600,
                 fontSize: '0.85rem',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.5rem',
                 height: '38px',
               }}
             >
@@ -344,19 +328,10 @@ export default function Dashboard({ cppFiles, notionSolutions, isNotionConfigure
                   <button
                     onClick={handleSyncDownload}
                     disabled={syncing}
+                    className="btn-3d-cyan"
                     style={{
-                      background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
-                      color: '#fff',
-                      border: 'none',
-                      padding: '0.65rem 1.5rem',
-                      borderRadius: '8px',
                       cursor: syncing ? 'not-allowed' : 'pointer',
-                      fontWeight: 600,
                       fontSize: '0.85rem',
-                      boxShadow: '0 4px 12px rgba(16, 185, 129, 0.3)',
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.5rem',
                     }}
                   >
                     {syncing ? '同步下載中...' : `一鍵下載 ${csesStatus.missingCount} 題原始碼`}

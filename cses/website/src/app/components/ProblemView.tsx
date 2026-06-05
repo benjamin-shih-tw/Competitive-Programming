@@ -101,7 +101,13 @@ export default function ProblemView({
         </div>
 
         {csesLink && (
-          <a href={csesLink} target="_blank" rel="noreferrer" style={styles.csesBtn} className="pulse-glow">
+          <a 
+            href={csesLink} 
+            target="_blank" 
+            rel="noreferrer" 
+            className="btn-3d-purple pulse-glow" 
+            style={{ textDecoration: 'none', fontSize: '0.9rem' }}
+          >
             <ExternalLink size={16} /> CSES 原題連結
           </a>
         )}
@@ -158,16 +164,20 @@ export default function ProblemView({
                 <h2 style={styles.sectionTitle}>C++ 原始碼</h2>
               </div>
               
-              <button onClick={handleCopyCode} style={styles.copyBtn}>
+              <button 
+                onClick={handleCopyCode} 
+                className="btn-3d-dark"
+                style={{ padding: '0.4rem 0.8rem', fontSize: '0.8rem', borderRadius: '8px' }}
+              >
                 {copied ? (
                   <>
                     <Check size={14} style={{ color: 'var(--success)' }} />
-                    <span style={{ color: 'var(--success)', fontSize: '0.8rem' }}>已複製</span>
+                    <span style={{ color: 'var(--success)' }}>已複製</span>
                   </>
                 ) : (
                   <>
                     <Copy size={14} />
-                    <span style={{ fontSize: '0.8rem' }}>複製代碼</span>
+                    <span>複製代碼</span>
                   </>
                 )}
               </button>

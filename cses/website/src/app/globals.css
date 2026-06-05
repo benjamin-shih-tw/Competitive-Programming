@@ -1,7 +1,73 @@
 /* Import Outfit and Inter fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap');
 
+@import "tailwindcss";
+
+@theme {
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
 :root {
+  /* Shadcn standard theme tokens */
+  --background: 224 71% 4%;
+  --foreground: 213 31% 91%;
+  
+  --card: 224 71% 4%;
+  --card-foreground: 213 31% 91%;
+  
+  --popover: 224 71% 4%;
+  --popover-foreground: 213 31% 91%;
+  
+  --primary: 263.4 70% 50.4%;
+  --primary-foreground: 210 40% 98%;
+  
+  --secondary: 222.2 47.4% 11.2%;
+  --secondary-foreground: 210 40% 98%;
+  
+  --muted: 223 47% 11%;
+  --muted-foreground: 215.4 16.3% 56.9%;
+  
+  --accent: 216 34% 17%;
+  --accent-foreground: 210 40% 98%;
+  
+  --destructive: 0 63% 31%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --border: 216 34% 17%;
+  --input: 216 34% 17%;
+  --ring: 263.4 70% 50.4%;
+  
+  --radius: 0.5rem;
+
   /* Premium Dark Theme Color Tokens */
   --bg-base: #08090d;
   --bg-surface: rgba(17, 19, 28, 0.65);
@@ -378,5 +444,114 @@ pre[class*="language-"] {
 
 .animate-spin {
   animation: spin 1s linear infinite;
+}
+
+/* 3D Buttons - Uiverse.io Inspired */
+.btn-3d {
+  font: inherit;
+  background-color: #f0f0f0;
+  border: 0;
+  color: #242424;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  padding: 0.5em 1.25em;
+  font-weight: 600;
+  text-shadow: 0 0.0625em 0 #fff;
+  box-shadow: inset 0 0.0625em 0 0 #f4f4f4, 0 0.0625em 0 0 #efefef,
+    0 0.125em 0 0 #ececec, 0 0.25em 0 0 #e0e0e0, 0 0.3125em 0 0 #dedede,
+    0 0.375em 0 0 #dcdcdc, 0 0.425em 0 0 #cacaca, 0 0.425em 0.5em 0 #cecece;
+  transition: 0.15s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.btn-3d:active {
+  translate: 0 0.225em;
+  box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef,
+    0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede,
+    0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #cacaca, 0 0.225em 0.375em 0 #cecece;
+}
+
+.btn-3d-purple {
+  font: inherit;
+  background-color: #a855f7;
+  border: 0;
+  color: #ffffff;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  padding: 0.5em 1.25em;
+  font-weight: 600;
+  text-shadow: 0 0.0625em 0 rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0.0625em 0 0 #c084fc, 0 0.0625em 0 0 #9333ea,
+    0 0.125em 0 0 #7e22ce, 0 0.25em 0 0 #6b21a8, 0 0.3125em 0 0 #581c87,
+    0 0.375em 0 0 #4c1d95, 0 0.425em 0 0 #3b0764, 0 0.425em 0.5em 0 rgba(0, 0, 0, 0.5);
+  transition: 0.15s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.btn-3d-purple:active {
+  translate: 0 0.225em;
+  box-shadow: inset 0 0.03em 0 0 #c084fc, 0 0.03em 0 0 #9333ea,
+    0 0.0625em 0 0 #7e22ce, 0 0.125em 0 0 #6b21a8, 0 0.125em 0 0 #581c87,
+    0 0.2em 0 0 #4c1d95, 0 0.225em 0 0 #3b0764, 0 0.225em 0.375em 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn-3d-cyan {
+  font: inherit;
+  background-color: #06b6d4;
+  border: 0;
+  color: #08090d;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  padding: 0.5em 1.25em;
+  font-weight: 700;
+  text-shadow: 0 0.0625em 0 rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0.0625em 0 0 #22d3ee, 0 0.0625em 0 0 #0891b2,
+    0 0.125em 0 0 #0e7490, 0 0.25em 0 0 #155e75, 0 0.3125em 0 0 #164e63,
+    0 0.375em 0 0 #0f3f50, 0 0.425em 0 0 #072a37, 0 0.425em 0.5em 0 rgba(0, 0, 0, 0.5);
+  transition: 0.15s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.btn-3d-cyan:active {
+  translate: 0 0.225em;
+  box-shadow: inset 0 0.03em 0 0 #22d3ee, 0 0.03em 0 0 #0891b2,
+    0 0.0625em 0 0 #0e7490, 0 0.125em 0 0 #155e75, 0 0.125em 0 0 #164e63,
+    0 0.2em 0 0 #0f3f50, 0 0.225em 0 0 #072a37, 0 0.225em 0.375em 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn-3d-dark {
+  font: inherit;
+  background-color: #1e293b;
+  border: 0;
+  color: #f8fafc;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  padding: 0.5em 1.25em;
+  font-weight: 600;
+  text-shadow: 0 0.0625em 0 rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 0.0625em 0 0 #334155, 0 0.0625em 0 0 #0f172a,
+    0 0.125em 0 0 #020617, 0 0.25em 0 0 #000000, 0 0.3125em 0 0 #000000,
+    0 0.375em 0 0 #000000, 0 0.425em 0 0 #000000, 0 0.425em 0.5em 0 rgba(0, 0, 0, 0.6);
+  transition: 0.15s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.btn-3d-dark:active {
+  translate: 0 0.225em;
+  box-shadow: inset 0 0.03em 0 0 #334155, 0 0.03em 0 0 #0f172a,
+    0 0.0625em 0 0 #020617, 0 0.125em 0 0 #000000, 0 0.125em 0 0 #000000,
+    0 0.2em 0 0 #000000, 0 0.225em 0 0 #000000, 0 0.225em 0.375em 0 rgba(0, 0, 0, 0.6);
 }
 

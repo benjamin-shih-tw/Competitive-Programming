@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { InfiniteGrid } from '../components/ui/infinite-grid-integration';
 
 export const metadata: Metadata = {
   title: 'CSES Solution Portal | Notion & GitHub Sync',
@@ -15,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-TW">
-      <body>{children}</body>
+      <body>
+        <InfiniteGrid>
+          {children}
+        </InfiniteGrid>
+      </body>
     </html>
   );
 }
