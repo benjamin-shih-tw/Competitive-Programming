@@ -245,8 +245,8 @@ export async function POST(request: Request) {
 
             // Setup sparse checkout
             execSync('git sparse-checkout init --cone', { cwd: repoDir });
-            execSync('git sparse-checkout set "/*" "!/*.cpp" "Untitled-3.cpp"', { cwd: repoDir });
-            execSync(`git sparse-checkout add "${task.filename}"`, { cwd: repoDir });
+            execSync('git sparse-checkout set "/*" "!/cses/*.cpp" "cses/Untitled-3.cpp"', { cwd: repoDir });
+            execSync(`git sparse-checkout add "cses/${task.filename}"`, { cwd: repoDir });
 
             // Git add & commit
             execSync(`git add "${task.filename}"`, { cwd: repoDir });
@@ -263,7 +263,7 @@ export async function POST(request: Request) {
           } finally {
             // Reapply cleanup rules and remove the file locally
             try {
-              execSync('git sparse-checkout set "/*" "!/*.cpp" "Untitled-3.cpp"', { cwd: repoDir });
+              execSync('git sparse-checkout set "/*" "!/cses/*.cpp" "cses/Untitled-3.cpp"', { cwd: repoDir });
             } catch (e) {}
             if (fs.existsSync(filePath)) {
               fs.unlinkSync(filePath);
