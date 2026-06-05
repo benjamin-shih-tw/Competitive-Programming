@@ -1,16 +1,27 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { marked } from 'marked';
-import { getCppFileByFilename } from '../../../lib/cppFiles';
+import { getCppFileByFilename, getAllCppFiles } from '../../../lib/cppFiles';
 import { getNotionSolutionDetails } from '../../../lib/notion';
 import ProblemView from '../../components/ProblemView';
-
-export const revalidate = 60; // Revalidate pages at most every 60 seconds (ISR)
 
 type PageParams = Promise<{ filename: string }>;
 
 interface ProblemPageProps {
   params: PageParams;
+}
+
+// Generate static routes for all solution files at build time
+export async function generateStaticParams() {
+  try {
+    const cppFiles = await getAllCppFiles();
+    return cppFiles.map((file) => ({
+      filename: file.filename,
+    }));
+  } catch (error) {
+    console.error('Error generating static params:', error);
+    return [];
+  }
 }
 
 // Simple preprocessor to transform GitHub alert blocks into readable headers

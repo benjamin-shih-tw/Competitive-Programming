@@ -36,6 +36,14 @@ export default function Dashboard({ cppFiles, notionSolutions, isNotionConfigure
   const [csesStatus, setCsesStatus] = useState<any>(null);
   const [syncing, setSyncing] = useState(false);
   const [syncResult, setSyncResult] = useState<any>(null);
+  const [isLocal, setIsLocal] = useState(true);
+
+  React.useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const local = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+      setIsLocal(local);
+    }
+  }, []);
 
   const handleCheckCses = async () => {
     setCsesLoading(true);
@@ -43,7 +51,8 @@ export default function Dashboard({ cppFiles, notionSolutions, isNotionConfigure
     setCsesStatus(null);
     setSyncResult(null);
     try {
-      const res = await fetch('/api/cses-sync', {
+      const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+      const res = await fetch(`${basePath}/api/cses-sync`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action: 'GET_STATUS', cookie: csesCookie }),
@@ -65,7 +74,8 @@ export default function Dashboard({ cppFiles, notionSolutions, isNotionConfigure
     setCsesError('');
     setSyncResult(null);
     try {
-      const res = await fetch('/api/cses-sync', {
+      const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+      const res = await fetch(`${basePath}/api/cses-sync`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action: 'SYNC_DOWNLOAD', cookie: csesCookie }),
@@ -241,6 +251,32 @@ export default function Dashboard({ cppFiles, notionSolutions, isNotionConfigure
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem', marginBottom: '1.5rem' }}>
             輸入您在瀏覽器中登入 CSES 後的 <code>PHPSESSID</code> Cookie，即可自動檢查哪些題目在 CSES 已通過（AC），但尚未放入本機與 GitHub 專案目錄中，並可一鍵自動下載！
           </p>
+          
+          {!isLocal && (
+            <div style={{
+              background: 'rgba(245, 158, 11, 0.08)',
+              border: '1px solid rgba(245, 158, 11, 0.2)',
+              borderRadius: '8px',
+              padding: '0.75rem 1rem',
+              color: '#f59e0b',
+              fontSize: '0.85rem',
+              lineHeight: '1.4',
+              marginBottom: '1.5rem',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '0.25rem'
+            }}>
+              <span style={{ fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                ⚠️ 靜態公開網頁限制 (Static Deployment Limit)
+              </span>
+              <span>
+                此公開網站目前以 <strong>靜態 HTML</strong> 託管於 GitHub Pages，因此「一鍵下載與自動推送 API」在線上不可用。
+              </span>
+              <span style={{ color: 'var(--text-muted)', fontSize: '0.8rem', marginTop: '0.25rem' }}>
+                💡 <strong>解決方案：</strong>請於本機執行 <code>python3 sync_cses.py --cookie &lt;您的PHPSESSID&gt;</code> 進行代碼同步與推送，或在本地運行開發伺服器（<code>npm run dev</code>）使用此同步按鈕。
+              </span>
+            </div>
+          )}
           
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'flex-end', marginBottom: '1.5rem' }}>
             <div style={{ flex: '1 1 300px', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
