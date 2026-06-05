@@ -39,3 +39,10 @@
 
 # debug information files
 *.dwo
+
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Scratch files
+cses/Untitled-3.cpp
