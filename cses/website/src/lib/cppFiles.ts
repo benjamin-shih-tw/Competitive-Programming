@@ -140,7 +140,7 @@ const CSES_METADATA_MAP: Record<string, { displayName: string; category: string;
 
 const GITHUB_REPO_OWNER = 'benjamin-shih-tw';
 const GITHUB_REPO_NAME = 'Competitive-Programming';
-const GITHUB_BRANCH = 'cses-solutions';
+const GITHUB_BRANCH = 'main';
 
 // Formats file name into readable display name
 function fallbackDisplayName(filename: string): string {
@@ -176,7 +176,7 @@ function getLocalCppFiles(): CppFileInfo[] {
 // Fetch all C++ files list from GitHub REST API
 export async function getAllCppFiles(): Promise<CppFileInfo[]> {
   try {
-    const url = `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents?ref=${GITHUB_BRANCH}`;
+    const url = `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents/cses?ref=${GITHUB_BRANCH}`;
     
     // Fetch using Next.js fetch cache (cached for 60 seconds)
     const response = await fetch(url, {
@@ -225,7 +225,7 @@ export async function getCppFileByFilename(filename: string): Promise<CppFileInf
 
   try {
     // 1. Try fetching raw content from GitHub
-    const rawUrl = `https://raw.githubusercontent.com/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/${GITHUB_BRANCH}/${encodeURIComponent(cleanFilename)}`;
+    const rawUrl = `https://raw.githubusercontent.com/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/${GITHUB_BRANCH}/cses/${encodeURIComponent(cleanFilename)}`;
     const response = await fetch(rawUrl, {
       next: { revalidate: 60 },
       headers: {
