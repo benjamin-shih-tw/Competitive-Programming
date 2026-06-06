@@ -27,11 +27,9 @@
 * 您可以直接在本機工作區的 `cses/Untitled-3.cpp` 寫 code，或直接在 CSES 網頁上解題並取得 **AC (Accepted)**。
 
 ### 步驟 2：同步 AC 代碼至 GitHub (本機端)
-打開您的終端機，在專案根目錄下執行 Python 同步腳本：
+打開您的終端機，執行以下指令：
 ```bash
-cd /Users/benjamin/.gemini/antigravity/scratch/Competitive-Programming/cses/website
-```
-```bash
+cd /Users/benjamin/.gemini/antigravity/scratch/Competitive-Programming
 python3 cses/sync_cses.py --cookie <您的_PHPSESSID>
 ```
 *   **運作機制**：腳本會自動登入 CSES ➡️ 比對 CSES 已解題目與 GitHub 檔案 ➡️ 下載缺失代碼至 `cses/` 目錄下 ➡️ 自動 Commit 與 Push ➡️ 透過 `sparse-checkout` 自動將本地 C++ 檔案隱藏，保持工作區乾淨。
