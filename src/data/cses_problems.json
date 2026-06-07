@@ -1,0 +1,4092 @@
+[
+  {
+    "category": "Introductory Problems",
+    "problems": [
+      {
+        "id": "1068",
+        "name": "Weird Algorithm",
+        "solved_count": 167469,
+        "total_count": 175070,
+        "solve_rate": 0.9565830810532929,
+        "rating": 300,
+        "color": "gray",
+        "color_name": "Gray"
+      },
+      {
+        "id": "1083",
+        "name": "Missing Number",
+        "solved_count": 144600,
+        "total_count": 151287,
+        "solve_rate": 0.9557992424993556,
+        "rating": 351,
+        "color": "gray",
+        "color_name": "Gray"
+      },
+      {
+        "id": "1069",
+        "name": "Repetitions",
+        "solved_count": 125797,
+        "total_count": 130637,
+        "solve_rate": 0.9629507719864969,
+        "rating": 400,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1094",
+        "name": "Increasing Array",
+        "solved_count": 118433,
+        "total_count": 122459,
+        "solve_rate": 0.967123690378004,
+        "rating": 421,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1070",
+        "name": "Permutations",
+        "solved_count": 103987,
+        "total_count": 107029,
+        "solve_rate": 0.97157779667193,
+        "rating": 466,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1071",
+        "name": "Number Spiral",
+        "solved_count": 73650,
+        "total_count": 80019,
+        "solve_rate": 0.9204064034791737,
+        "rating": 586,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1072",
+        "name": "Two Knights",
+        "solved_count": 56697,
+        "total_count": 58416,
+        "solve_rate": 0.9705731306491372,
+        "rating": 677,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1092",
+        "name": "Two Sets",
+        "solved_count": 61639,
+        "total_count": 66080,
+        "solve_rate": 0.932793583535109,
+        "rating": 648,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1617",
+        "name": "Bit Strings",
+        "solved_count": 70334,
+        "total_count": 74117,
+        "solve_rate": 0.9489590782141749,
+        "rating": 602,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1618",
+        "name": "Trailing Zeros",
+        "solved_count": 65259,
+        "total_count": 69296,
+        "solve_rate": 0.9417426691295313,
+        "rating": 628,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1754",
+        "name": "Coin Piles",
+        "solved_count": 57945,
+        "total_count": 63162,
+        "solve_rate": 0.9174028688135272,
+        "rating": 669,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1755",
+        "name": "Palindrome Reorder",
+        "solved_count": 53903,
+        "total_count": 56784,
+        "solve_rate": 0.9492638771484926,
+        "rating": 694,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "2205",
+        "name": "Gray Code",
+        "solved_count": 36598,
+        "total_count": 40911,
+        "solve_rate": 0.894576030896336,
+        "rating": 829,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "2165",
+        "name": "Tower of Hanoi",
+        "solved_count": 34046,
+        "total_count": 35365,
+        "solve_rate": 0.9627032376643574,
+        "rating": 854,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1622",
+        "name": "Creating Strings",
+        "solved_count": 45440,
+        "total_count": 46567,
+        "solve_rate": 0.9757983121094337,
+        "rating": 754,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1623",
+        "name": "Apple Division",
+        "solved_count": 45956,
+        "total_count": 51669,
+        "solve_rate": 0.8894307998993594,
+        "rating": 750,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1624",
+        "name": "Chessboard and Queens",
+        "solved_count": 27912,
+        "total_count": 28390,
+        "solve_rate": 0.9831630855935188,
+        "rating": 923,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "3399",
+        "name": "Raab Game I",
+        "solved_count": 6457,
+        "total_count": 7291,
+        "solve_rate": 0.8856123988478947,
+        "rating": 1432,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3419",
+        "name": "Mex Grid Construction",
+        "solved_count": 6287,
+        "total_count": 6606,
+        "solve_rate": 0.951710566151983,
+        "rating": 1441,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3217",
+        "name": "Knight Moves Grid",
+        "solved_count": 6332,
+        "total_count": 6469,
+        "solve_rate": 0.9788220745091977,
+        "rating": 1439,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3311",
+        "name": "Grid Coloring I",
+        "solved_count": 5311,
+        "total_count": 5496,
+        "solve_rate": 0.9663391557496361,
+        "rating": 1500,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2431",
+        "name": "Digit Queries",
+        "solved_count": 19640,
+        "total_count": 22626,
+        "solve_rate": 0.8680279324670733,
+        "rating": 1045,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1743",
+        "name": "String Reorder",
+        "solved_count": 4809,
+        "total_count": 5522,
+        "solve_rate": 0.8708801159000362,
+        "rating": 1535,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1625",
+        "name": "Grid Path Description",
+        "solved_count": 10981,
+        "total_count": 14130,
+        "solve_rate": 0.7771408351026186,
+        "rating": 1247,
+        "color": "cyan",
+        "color_name": "Cyan"
+      }
+    ]
+  },
+  {
+    "category": "Sorting and Searching",
+    "problems": [
+      {
+        "id": "1621",
+        "name": "Distinct Numbers",
+        "solved_count": 82989,
+        "total_count": 89449,
+        "solve_rate": 0.9277800757973818,
+        "rating": 544,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1084",
+        "name": "Apartments",
+        "solved_count": 62126,
+        "total_count": 68557,
+        "solve_rate": 0.9061948451653369,
+        "rating": 645,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1090",
+        "name": "Ferris Wheel",
+        "solved_count": 59672,
+        "total_count": 64057,
+        "solve_rate": 0.9315453424293988,
+        "rating": 659,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1091",
+        "name": "Concert Tickets",
+        "solved_count": 47890,
+        "total_count": 55424,
+        "solve_rate": 0.8640661085450346,
+        "rating": 735,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1619",
+        "name": "Restaurant Customers",
+        "solved_count": 48731,
+        "total_count": 52446,
+        "solve_rate": 0.9291652366243374,
+        "rating": 729,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1629",
+        "name": "Movie Festival",
+        "solved_count": 47163,
+        "total_count": 49824,
+        "solve_rate": 0.9465920038535646,
+        "rating": 741,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1640",
+        "name": "Sum of Two Values",
+        "solved_count": 54769,
+        "total_count": 61030,
+        "solve_rate": 0.8974111092905128,
+        "rating": 689,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1643",
+        "name": "Maximum Subarray Sum",
+        "solved_count": 52515,
+        "total_count": 54747,
+        "solve_rate": 0.9592306427749465,
+        "rating": 703,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1074",
+        "name": "Stick Lengths",
+        "solved_count": 46953,
+        "total_count": 49023,
+        "solve_rate": 0.9577749219753993,
+        "rating": 742,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "2183",
+        "name": "Missing Coin Sum",
+        "solved_count": 35731,
+        "total_count": 36990,
+        "solve_rate": 0.9659637739929711,
+        "rating": 837,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "2216",
+        "name": "Collecting Numbers",
+        "solved_count": 36611,
+        "total_count": 39059,
+        "solve_rate": 0.9373255843723598,
+        "rating": 829,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "2217",
+        "name": "Collecting Numbers II",
+        "solved_count": 15767,
+        "total_count": 19852,
+        "solve_rate": 0.794227281885956,
+        "rating": 1122,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1141",
+        "name": "Playlist",
+        "solved_count": 36567,
+        "total_count": 41548,
+        "solve_rate": 0.880114566284779,
+        "rating": 829,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1073",
+        "name": "Towers",
+        "solved_count": 36628,
+        "total_count": 39141,
+        "solve_rate": 0.9357962239084336,
+        "rating": 829,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1163",
+        "name": "Traffic Lights",
+        "solved_count": 28460,
+        "total_count": 31717,
+        "solve_rate": 0.8973105905350443,
+        "rating": 916,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "3420",
+        "name": "Distinct Values Subarrays",
+        "solved_count": 8586,
+        "total_count": 9796,
+        "solve_rate": 0.8764801959983667,
+        "rating": 1333,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3421",
+        "name": "Distinct Values Subsequences",
+        "solved_count": 6583,
+        "total_count": 7226,
+        "solve_rate": 0.9110157763631331,
+        "rating": 1425,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2162",
+        "name": "Josephus Problem I",
+        "solved_count": 21960,
+        "total_count": 24079,
+        "solve_rate": 0.9119980065617342,
+        "rating": 1007,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "2163",
+        "name": "Josephus Problem II",
+        "solved_count": 11983,
+        "total_count": 16426,
+        "solve_rate": 0.7295141848289297,
+        "rating": 1217,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2168",
+        "name": "Nested Ranges Check",
+        "solved_count": 12958,
+        "total_count": 14754,
+        "solve_rate": 0.878270299579775,
+        "rating": 1190,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "2169",
+        "name": "Nested Ranges Count",
+        "solved_count": 8730,
+        "total_count": 10243,
+        "solve_rate": 0.8522893683491165,
+        "rating": 1327,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1164",
+        "name": "Room Allocation",
+        "solved_count": 21466,
+        "total_count": 24514,
+        "solve_rate": 0.8756628865138288,
+        "rating": 1014,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1620",
+        "name": "Factory Machines",
+        "solved_count": 31004,
+        "total_count": 33591,
+        "solve_rate": 0.9229853234497336,
+        "rating": 887,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1630",
+        "name": "Tasks and Deadlines",
+        "solved_count": 24740,
+        "total_count": 25240,
+        "solve_rate": 0.9801901743264659,
+        "rating": 965,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1631",
+        "name": "Reading Books",
+        "solved_count": 20018,
+        "total_count": 21395,
+        "solve_rate": 0.9356391680299135,
+        "rating": 1039,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1641",
+        "name": "Sum of Three Values",
+        "solved_count": 29190,
+        "total_count": 32177,
+        "solve_rate": 0.9071697175000777,
+        "rating": 908,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1642",
+        "name": "Sum of Four Values",
+        "solved_count": 18179,
+        "total_count": 20117,
+        "solve_rate": 0.9036635681264602,
+        "rating": 1072,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1645",
+        "name": "Nearest Smaller Values",
+        "solved_count": 24366,
+        "total_count": 25176,
+        "solve_rate": 0.9678265014299333,
+        "rating": 970,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1660",
+        "name": "Subarray Sums I",
+        "solved_count": 32315,
+        "total_count": 34354,
+        "solve_rate": 0.9406473773068639,
+        "rating": 872,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1661",
+        "name": "Subarray Sums II",
+        "solved_count": 29460,
+        "total_count": 34689,
+        "solve_rate": 0.8492605725157831,
+        "rating": 904,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1662",
+        "name": "Subarray Divisibility",
+        "solved_count": 26658,
+        "total_count": 28911,
+        "solve_rate": 0.9220711839784165,
+        "rating": 939,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "2428",
+        "name": "Distinct Values Subarrays II",
+        "solved_count": 16230,
+        "total_count": 17716,
+        "solve_rate": 0.9161210205463988,
+        "rating": 1112,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1085",
+        "name": "Array Division",
+        "solved_count": 25269,
+        "total_count": 26531,
+        "solve_rate": 0.9524330029022653,
+        "rating": 958,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1632",
+        "name": "Movie Festival II",
+        "solved_count": 13622,
+        "total_count": 16325,
+        "solve_rate": 0.8344257274119449,
+        "rating": 1173,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1644",
+        "name": "Maximum Subarray Sum II",
+        "solved_count": 12673,
+        "total_count": 15012,
+        "solve_rate": 0.844191313615774,
+        "rating": 1198,
+        "color": "green",
+        "color_name": "Green"
+      }
+    ]
+  },
+  {
+    "category": "Dynamic Programming",
+    "problems": [
+      {
+        "id": "1633",
+        "name": "Dice Combinations",
+        "solved_count": 86521,
+        "total_count": 91414,
+        "solve_rate": 0.946474281838668,
+        "rating": 530,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1634",
+        "name": "Minimizing Coins",
+        "solved_count": 74768,
+        "total_count": 80136,
+        "solve_rate": 0.9330138764101028,
+        "rating": 581,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1635",
+        "name": "Coin Combinations I",
+        "solved_count": 68399,
+        "total_count": 73838,
+        "solve_rate": 0.9263387415693817,
+        "rating": 612,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1636",
+        "name": "Coin Combinations II",
+        "solved_count": 57865,
+        "total_count": 65198,
+        "solve_rate": 0.8875272247614957,
+        "rating": 670,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1637",
+        "name": "Removing Digits",
+        "solved_count": 64340,
+        "total_count": 65605,
+        "solve_rate": 0.9807179330843686,
+        "rating": 633,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1638",
+        "name": "Grid Paths I",
+        "solved_count": 60515,
+        "total_count": 62170,
+        "solve_rate": 0.9733794434614766,
+        "rating": 654,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1158",
+        "name": "Book Shop",
+        "solved_count": 54294,
+        "total_count": 59489,
+        "solve_rate": 0.9126729311301249,
+        "rating": 692,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1746",
+        "name": "Array Description",
+        "solved_count": 40058,
+        "total_count": 44318,
+        "solve_rate": 0.9038765287242204,
+        "rating": 798,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "2413",
+        "name": "Counting Towers",
+        "solved_count": 24611,
+        "total_count": 26042,
+        "solve_rate": 0.9450503033561171,
+        "rating": 967,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1639",
+        "name": "Edit Distance",
+        "solved_count": 40075,
+        "total_count": 42225,
+        "solve_rate": 0.9490822972172883,
+        "rating": 797,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "3403",
+        "name": "Longest Common Subsequence",
+        "solved_count": 12219,
+        "total_count": 12652,
+        "solve_rate": 0.9657761618716408,
+        "rating": 1210,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1744",
+        "name": "Rectangle Cutting",
+        "solved_count": 33006,
+        "total_count": 35948,
+        "solve_rate": 0.9181595638143986,
+        "rating": 865,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "3359",
+        "name": "Minimal Grid Path",
+        "solved_count": 5464,
+        "total_count": 9416,
+        "solve_rate": 0.5802888700084962,
+        "rating": 1490,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1745",
+        "name": "Money Sums",
+        "solved_count": 39018,
+        "total_count": 40446,
+        "solve_rate": 0.9646936656282451,
+        "rating": 807,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1097",
+        "name": "Removal Game",
+        "solved_count": 23729,
+        "total_count": 31134,
+        "solve_rate": 0.7621571272563756,
+        "rating": 980,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1093",
+        "name": "Two Sets II",
+        "solved_count": 30664,
+        "total_count": 32902,
+        "solve_rate": 0.9319798188559966,
+        "rating": 890,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "3314",
+        "name": "Mountain Range",
+        "solved_count": 3826,
+        "total_count": 6718,
+        "solve_rate": 0.5695147365287287,
+        "rating": 1614,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1145",
+        "name": "Increasing Subsequence",
+        "solved_count": 31310,
+        "total_count": 35068,
+        "solve_rate": 0.8928367742671381,
+        "rating": 883,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1140",
+        "name": "Projects",
+        "solved_count": 21812,
+        "total_count": 24282,
+        "solve_rate": 0.8982785602503912,
+        "rating": 1009,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1653",
+        "name": "Elevator Rides",
+        "solved_count": 14070,
+        "total_count": 17548,
+        "solve_rate": 0.801800775017096,
+        "rating": 1161,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "2181",
+        "name": "Counting Tilings",
+        "solved_count": 8298,
+        "total_count": 9005,
+        "solve_rate": 0.9214880621876735,
+        "rating": 1345,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2220",
+        "name": "Counting Numbers",
+        "solved_count": 12042,
+        "total_count": 13438,
+        "solve_rate": 0.8961154933769906,
+        "rating": 1215,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1748",
+        "name": "Increasing Subsequence II",
+        "solved_count": 5305,
+        "total_count": 6165,
+        "solve_rate": 0.8605028386050284,
+        "rating": 1500,
+        "color": "cyan",
+        "color_name": "Cyan"
+      }
+    ]
+  },
+  {
+    "category": "Graph Algorithms",
+    "problems": [
+      {
+        "id": "1192",
+        "name": "Counting Rooms",
+        "solved_count": 59735,
+        "total_count": 62644,
+        "solve_rate": 0.9535629908690377,
+        "rating": 659,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1193",
+        "name": "Labyrinth",
+        "solved_count": 41849,
+        "total_count": 49625,
+        "solve_rate": 0.8433047858942065,
+        "rating": 782,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1666",
+        "name": "Building Roads",
+        "solved_count": 52112,
+        "total_count": 53939,
+        "solve_rate": 0.9661284043085708,
+        "rating": 706,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1667",
+        "name": "Message Route",
+        "solved_count": 45019,
+        "total_count": 46741,
+        "solve_rate": 0.9631586829550074,
+        "rating": 757,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1668",
+        "name": "Building Teams",
+        "solved_count": 42520,
+        "total_count": 44707,
+        "solve_rate": 0.9510814861207417,
+        "rating": 777,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1669",
+        "name": "Round Trip",
+        "solved_count": 33575,
+        "total_count": 36438,
+        "solve_rate": 0.9214281793731819,
+        "rating": 859,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1194",
+        "name": "Monsters",
+        "solved_count": 23453,
+        "total_count": 27344,
+        "solve_rate": 0.8577018724400234,
+        "rating": 984,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1671",
+        "name": "Shortest Routes I",
+        "solved_count": 37121,
+        "total_count": 40707,
+        "solve_rate": 0.9119070430147149,
+        "rating": 824,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1672",
+        "name": "Shortest Routes II",
+        "solved_count": 29972,
+        "total_count": 33455,
+        "solve_rate": 0.8958900014945449,
+        "rating": 898,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1673",
+        "name": "High Score",
+        "solved_count": 18759,
+        "total_count": 25833,
+        "solve_rate": 0.7261642085704332,
+        "rating": 1061,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1195",
+        "name": "Flight Discount",
+        "solved_count": 24105,
+        "total_count": 27958,
+        "solve_rate": 0.8621861363473782,
+        "rating": 974,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1197",
+        "name": "Cycle Finding",
+        "solved_count": 17031,
+        "total_count": 20632,
+        "solve_rate": 0.8254652966265995,
+        "rating": 1095,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1196",
+        "name": "Flight Routes",
+        "solved_count": 16538,
+        "total_count": 18381,
+        "solve_rate": 0.8997334203797399,
+        "rating": 1105,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1678",
+        "name": "Round Trip II",
+        "solved_count": 18570,
+        "total_count": 20744,
+        "solve_rate": 0.8951986116467412,
+        "rating": 1065,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1679",
+        "name": "Course Schedule",
+        "solved_count": 24705,
+        "total_count": 26007,
+        "solve_rate": 0.9499365555427385,
+        "rating": 966,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1680",
+        "name": "Longest Flight Route",
+        "solved_count": 17762,
+        "total_count": 21674,
+        "solve_rate": 0.8195072437021316,
+        "rating": 1080,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1681",
+        "name": "Game Routes",
+        "solved_count": 19542,
+        "total_count": 20840,
+        "solve_rate": 0.9377159309021114,
+        "rating": 1047,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1202",
+        "name": "Investigation",
+        "solved_count": 14593,
+        "total_count": 15631,
+        "solve_rate": 0.9335935000959632,
+        "rating": 1149,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1750",
+        "name": "Planets Queries I",
+        "solved_count": 12674,
+        "total_count": 14749,
+        "solve_rate": 0.8593124957624245,
+        "rating": 1198,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1160",
+        "name": "Planets Queries II",
+        "solved_count": 4635,
+        "total_count": 5807,
+        "solve_rate": 0.7981746168417427,
+        "rating": 1547,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1751",
+        "name": "Planets Cycles",
+        "solved_count": 7754,
+        "total_count": 8623,
+        "solve_rate": 0.8992230082337933,
+        "rating": 1368,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1675",
+        "name": "Road Reparation",
+        "solved_count": 19113,
+        "total_count": 19895,
+        "solve_rate": 0.9606936416184971,
+        "rating": 1055,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1676",
+        "name": "Road Construction",
+        "solved_count": 20994,
+        "total_count": 21656,
+        "solve_rate": 0.9694311045437753,
+        "rating": 1022,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1682",
+        "name": "Flight Routes Check",
+        "solved_count": 16656,
+        "total_count": 17986,
+        "solve_rate": 0.9260535972422995,
+        "rating": 1103,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1683",
+        "name": "Planets and Kingdoms",
+        "solved_count": 13535,
+        "total_count": 14059,
+        "solve_rate": 0.9627285013158831,
+        "rating": 1175,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1684",
+        "name": "Giant Pizza",
+        "solved_count": 5720,
+        "total_count": 6258,
+        "solve_rate": 0.9140300415468201,
+        "rating": 1474,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1686",
+        "name": "Coin Collector",
+        "solved_count": 8891,
+        "total_count": 9785,
+        "solve_rate": 0.9086356668369954,
+        "rating": 1321,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1691",
+        "name": "Mail Delivery",
+        "solved_count": 7223,
+        "total_count": 7878,
+        "solve_rate": 0.9168570703224168,
+        "rating": 1393,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1692",
+        "name": "De Bruijn Sequence",
+        "solved_count": 3834,
+        "total_count": 4010,
+        "solve_rate": 0.9561097256857856,
+        "rating": 1613,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1693",
+        "name": "Teleporters Path",
+        "solved_count": 5563,
+        "total_count": 6305,
+        "solve_rate": 0.8823156225218081,
+        "rating": 1484,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1690",
+        "name": "Hamiltonian Flights",
+        "solved_count": 8416,
+        "total_count": 9547,
+        "solve_rate": 0.881533466010265,
+        "rating": 1340,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1689",
+        "name": "Knight's Tour",
+        "solved_count": 3215,
+        "total_count": 3866,
+        "solve_rate": 0.8316088980858769,
+        "rating": 1675,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1694",
+        "name": "Download Speed",
+        "solved_count": 5588,
+        "total_count": 7367,
+        "solve_rate": 0.7585177141305823,
+        "rating": 1482,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1695",
+        "name": "Police Chase",
+        "solved_count": 4450,
+        "total_count": 4965,
+        "solve_rate": 0.8962739174219537,
+        "rating": 1561,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1696",
+        "name": "School Dance",
+        "solved_count": 4878,
+        "total_count": 5148,
+        "solve_rate": 0.9475524475524476,
+        "rating": 1530,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1711",
+        "name": "Distinct Routes",
+        "solved_count": 3451,
+        "total_count": 4470,
+        "solve_rate": 0.7720357941834451,
+        "rating": 1650,
+        "color": "blue",
+        "color_name": "Blue"
+      }
+    ]
+  },
+  {
+    "category": "Range Queries",
+    "problems": [
+      {
+        "id": "1646",
+        "name": "Static Range Sum Queries",
+        "solved_count": 41798,
+        "total_count": 43653,
+        "solve_rate": 0.9575057842530869,
+        "rating": 783,
+        "color": "brown",
+        "color_name": "Brown"
+      },
+      {
+        "id": "1647",
+        "name": "Static Range Minimum Queries",
+        "solved_count": 28919,
+        "total_count": 30951,
+        "solve_rate": 0.934347840134406,
+        "rating": 911,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1648",
+        "name": "Dynamic Range Sum Queries",
+        "solved_count": 29979,
+        "total_count": 31276,
+        "solve_rate": 0.9585305026218186,
+        "rating": 898,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1649",
+        "name": "Dynamic Range Minimum Queries",
+        "solved_count": 27133,
+        "total_count": 27770,
+        "solve_rate": 0.9770615772416277,
+        "rating": 933,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1650",
+        "name": "Range Xor Queries",
+        "solved_count": 27915,
+        "total_count": 28291,
+        "solve_rate": 0.9867095542752112,
+        "rating": 923,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1651",
+        "name": "Range Update Queries",
+        "solved_count": 22323,
+        "total_count": 23887,
+        "solve_rate": 0.9345250554695023,
+        "rating": 1001,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1652",
+        "name": "Forest Queries",
+        "solved_count": 22924,
+        "total_count": 23729,
+        "solve_rate": 0.9660752665514771,
+        "rating": 992,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1143",
+        "name": "Hotel Queries",
+        "solved_count": 16220,
+        "total_count": 17155,
+        "solve_rate": 0.9454969396677354,
+        "rating": 1112,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1749",
+        "name": "List Removals",
+        "solved_count": 13487,
+        "total_count": 14145,
+        "solve_rate": 0.9534817956875221,
+        "rating": 1176,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1144",
+        "name": "Salary Queries",
+        "solved_count": 10284,
+        "total_count": 12837,
+        "solve_rate": 0.801121757419958,
+        "rating": 1270,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2166",
+        "name": "Prefix Sum Queries",
+        "solved_count": 8717,
+        "total_count": 9390,
+        "solve_rate": 0.9283280085197018,
+        "rating": 1328,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2206",
+        "name": "Pizzeria Queries",
+        "solved_count": 7001,
+        "total_count": 7251,
+        "solve_rate": 0.9655219969659358,
+        "rating": 1404,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3304",
+        "name": "Visible Buildings Queries",
+        "solved_count": 1930,
+        "total_count": 2103,
+        "solve_rate": 0.91773656680932,
+        "rating": 1852,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3163",
+        "name": "Range Interval Queries",
+        "solved_count": 1492,
+        "total_count": 1999,
+        "solve_rate": 0.7463731865932967,
+        "rating": 1941,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1190",
+        "name": "Subarray Sum Queries",
+        "solved_count": 8120,
+        "total_count": 8781,
+        "solve_rate": 0.9247238355540371,
+        "rating": 1352,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3226",
+        "name": "Subarray Sum Queries II",
+        "solved_count": 2152,
+        "total_count": 2222,
+        "solve_rate": 0.9684968496849685,
+        "rating": 1814,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1734",
+        "name": "Distinct Values Queries",
+        "solved_count": 7683,
+        "total_count": 9364,
+        "solve_rate": 0.8204826997009825,
+        "rating": 1372,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3356",
+        "name": "Distinct Values Queries II",
+        "solved_count": 1243,
+        "total_count": 1410,
+        "solve_rate": 0.8815602836879433,
+        "rating": 2005,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2416",
+        "name": "Increasing Array Queries",
+        "solved_count": 2945,
+        "total_count": 3359,
+        "solve_rate": 0.8767490324501339,
+        "rating": 1705,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1664",
+        "name": "Movie Festival Queries",
+        "solved_count": 1602,
+        "total_count": 1767,
+        "solve_rate": 0.9066213921901528,
+        "rating": 1917,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1739",
+        "name": "Forest Queries II",
+        "solved_count": 4839,
+        "total_count": 5187,
+        "solve_rate": 0.9329091960670908,
+        "rating": 1532,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1735",
+        "name": "Range Updates and Sums",
+        "solved_count": 6698,
+        "total_count": 7879,
+        "solve_rate": 0.850107881710877,
+        "rating": 1419,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1736",
+        "name": "Polynomial Queries",
+        "solved_count": 4945,
+        "total_count": 5800,
+        "solve_rate": 0.8525862068965517,
+        "rating": 1525,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1737",
+        "name": "Range Queries and Copies",
+        "solved_count": 3515,
+        "total_count": 3748,
+        "solve_rate": 0.9378335112059765,
+        "rating": 1643,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2184",
+        "name": "Missing Coin Sum Queries",
+        "solved_count": 844,
+        "total_count": 1094,
+        "solve_rate": 0.7714808043875686,
+        "rating": 2139,
+        "color": "yellow",
+        "color_name": "Yellow"
+      }
+    ]
+  },
+  {
+    "category": "Tree Algorithms",
+    "problems": [
+      {
+        "id": "1674",
+        "name": "Subordinates",
+        "solved_count": 34198,
+        "total_count": 36564,
+        "solve_rate": 0.9352915435947927,
+        "rating": 853,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1130",
+        "name": "Tree Matching",
+        "solved_count": 19520,
+        "total_count": 22588,
+        "solve_rate": 0.8641756684965468,
+        "rating": 1047,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1131",
+        "name": "Tree Diameter",
+        "solved_count": 27888,
+        "total_count": 29504,
+        "solve_rate": 0.9452277657266811,
+        "rating": 923,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1132",
+        "name": "Tree Distances I",
+        "solved_count": 21452,
+        "total_count": 23011,
+        "solve_rate": 0.9322497935769849,
+        "rating": 1015,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1133",
+        "name": "Tree Distances II",
+        "solved_count": 17493,
+        "total_count": 18282,
+        "solve_rate": 0.9568427961929767,
+        "rating": 1086,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1687",
+        "name": "Company Queries I",
+        "solved_count": 19486,
+        "total_count": 20496,
+        "solve_rate": 0.9507220921155347,
+        "rating": 1048,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1688",
+        "name": "Company Queries II",
+        "solved_count": 18214,
+        "total_count": 19159,
+        "solve_rate": 0.9506759225429302,
+        "rating": 1072,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1135",
+        "name": "Distance Queries",
+        "solved_count": 16498,
+        "total_count": 17675,
+        "solve_rate": 0.9334087694483734,
+        "rating": 1106,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1136",
+        "name": "Counting Paths",
+        "solved_count": 10385,
+        "total_count": 10977,
+        "solve_rate": 0.9460690534754487,
+        "rating": 1267,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1137",
+        "name": "Subtree Queries",
+        "solved_count": 12416,
+        "total_count": 13201,
+        "solve_rate": 0.9405348079690933,
+        "rating": 1205,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1138",
+        "name": "Path Queries",
+        "solved_count": 10003,
+        "total_count": 10570,
+        "solve_rate": 0.9463576158940398,
+        "rating": 1280,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2134",
+        "name": "Path Queries II",
+        "solved_count": 4203,
+        "total_count": 6210,
+        "solve_rate": 0.6768115942028986,
+        "rating": 1581,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1139",
+        "name": "Distinct Colors",
+        "solved_count": 9619,
+        "total_count": 10558,
+        "solve_rate": 0.9110627012691798,
+        "rating": 1294,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2079",
+        "name": "Finding a Centroid",
+        "solved_count": 7797,
+        "total_count": 8112,
+        "solve_rate": 0.9611686390532544,
+        "rating": 1367,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2080",
+        "name": "Fixed-Length Paths I",
+        "solved_count": 3866,
+        "total_count": 4899,
+        "solve_rate": 0.7891406409471321,
+        "rating": 1610,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2081",
+        "name": "Fixed-Length Paths II",
+        "solved_count": 1852,
+        "total_count": 3292,
+        "solve_rate": 0.5625759416767923,
+        "rating": 1866,
+        "color": "blue",
+        "color_name": "Blue"
+      }
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "problems": [
+      {
+        "id": "2164",
+        "name": "Josephus Queries",
+        "solved_count": 5425,
+        "total_count": 6813,
+        "solve_rate": 0.7962718332599442,
+        "rating": 1493,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1095",
+        "name": "Exponentiation",
+        "solved_count": 26984,
+        "total_count": 28747,
+        "solve_rate": 0.9386718614116255,
+        "rating": 935,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1712",
+        "name": "Exponentiation II",
+        "solved_count": 18851,
+        "total_count": 22451,
+        "solve_rate": 0.8396507950648078,
+        "rating": 1060,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1713",
+        "name": "Counting Divisors",
+        "solved_count": 24627,
+        "total_count": 27727,
+        "solve_rate": 0.888195621596278,
+        "rating": 967,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1081",
+        "name": "Common Divisors",
+        "solved_count": 15896,
+        "total_count": 18379,
+        "solve_rate": 0.8649001577887807,
+        "rating": 1119,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1082",
+        "name": "Sum of Divisors",
+        "solved_count": 8980,
+        "total_count": 13270,
+        "solve_rate": 0.6767143933685004,
+        "rating": 1317,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2182",
+        "name": "Divisor Analysis",
+        "solved_count": 6177,
+        "total_count": 8209,
+        "solve_rate": 0.7524668047265197,
+        "rating": 1447,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2185",
+        "name": "Prime Multiples",
+        "solved_count": 7159,
+        "total_count": 8316,
+        "solve_rate": 0.8608706108706109,
+        "rating": 1396,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2417",
+        "name": "Counting Coprime Pairs",
+        "solved_count": 4740,
+        "total_count": 5482,
+        "solve_rate": 0.8646479387085005,
+        "rating": 1540,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3396",
+        "name": "Next Prime",
+        "solved_count": 2310,
+        "total_count": 2646,
+        "solve_rate": 0.873015873015873,
+        "rating": 1789,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1079",
+        "name": "Binomial Coefficients",
+        "solved_count": 11485,
+        "total_count": 12704,
+        "solve_rate": 0.9040459697732998,
+        "rating": 1232,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1715",
+        "name": "Creating Strings II",
+        "solved_count": 9569,
+        "total_count": 10081,
+        "solve_rate": 0.9492113877591509,
+        "rating": 1295,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1716",
+        "name": "Distributing Apples",
+        "solved_count": 9116,
+        "total_count": 9786,
+        "solve_rate": 0.9315348456979359,
+        "rating": 1312,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1717",
+        "name": "Christmas Party",
+        "solved_count": 7509,
+        "total_count": 8027,
+        "solve_rate": 0.9354677961878659,
+        "rating": 1380,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3397",
+        "name": "Permutation Order",
+        "solved_count": 1103,
+        "total_count": 1131,
+        "solve_rate": 0.9752431476569408,
+        "rating": 2046,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3398",
+        "name": "Permutation Rounds",
+        "solved_count": 1558,
+        "total_count": 1730,
+        "solve_rate": 0.900578034682081,
+        "rating": 1926,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2064",
+        "name": "Bracket Sequences I",
+        "solved_count": 5063,
+        "total_count": 5500,
+        "solve_rate": 0.9205454545454546,
+        "rating": 1517,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2187",
+        "name": "Bracket Sequences II",
+        "solved_count": 2680,
+        "total_count": 3060,
+        "solve_rate": 0.8758169934640523,
+        "rating": 1738,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2209",
+        "name": "Counting Necklaces",
+        "solved_count": 2461,
+        "total_count": 2659,
+        "solve_rate": 0.9255359157578037,
+        "rating": 1767,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2210",
+        "name": "Counting Grids",
+        "solved_count": 2049,
+        "total_count": 2175,
+        "solve_rate": 0.9420689655172414,
+        "rating": 1831,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1722",
+        "name": "Fibonacci Numbers",
+        "solved_count": 7627,
+        "total_count": 9517,
+        "solve_rate": 0.8014080067248083,
+        "rating": 1374,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1096",
+        "name": "Throwing Dice",
+        "solved_count": 3995,
+        "total_count": 4336,
+        "solve_rate": 0.9213560885608856,
+        "rating": 1599,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1723",
+        "name": "Graph Paths I",
+        "solved_count": 3863,
+        "total_count": 4125,
+        "solve_rate": 0.9364848484848485,
+        "rating": 1611,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1724",
+        "name": "Graph Paths II",
+        "solved_count": 3225,
+        "total_count": 3375,
+        "solve_rate": 0.9555555555555556,
+        "rating": 1673,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3154",
+        "name": "System of Linear Equations",
+        "solved_count": 557,
+        "total_count": 602,
+        "solve_rate": 0.925249169435216,
+        "rating": 2284,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3355",
+        "name": "Sum of Four Squares",
+        "solved_count": 816,
+        "total_count": 954,
+        "solve_rate": 0.8553459119496856,
+        "rating": 2151,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3406",
+        "name": "Triangle Number Sums",
+        "solved_count": 692,
+        "total_count": 834,
+        "solve_rate": 0.829736211031175,
+        "rating": 2208,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1725",
+        "name": "Dice Probability",
+        "solved_count": 3417,
+        "total_count": 3674,
+        "solve_rate": 0.9300489929232444,
+        "rating": 1653,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1726",
+        "name": "Moving Robots",
+        "solved_count": 1776,
+        "total_count": 1874,
+        "solve_rate": 0.9477054429028815,
+        "rating": 1881,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1727",
+        "name": "Candy Lottery",
+        "solved_count": 1744,
+        "total_count": 3371,
+        "solve_rate": 0.5173539009196084,
+        "rating": 1887,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1728",
+        "name": "Inversion Probability",
+        "solved_count": 506,
+        "total_count": 2512,
+        "solve_rate": 0.2014331210191083,
+        "rating": 2317,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1729",
+        "name": "Stick Game",
+        "solved_count": 3900,
+        "total_count": 3991,
+        "solve_rate": 0.9771986970684039,
+        "rating": 1607,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1730",
+        "name": "Nim Game I",
+        "solved_count": 5206,
+        "total_count": 5396,
+        "solve_rate": 0.9647887323943662,
+        "rating": 1507,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1098",
+        "name": "Nim Game II",
+        "solved_count": 4114,
+        "total_count": 4274,
+        "solve_rate": 0.9625643425362658,
+        "rating": 1589,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1099",
+        "name": "Stair Game",
+        "solved_count": 2797,
+        "total_count": 3036,
+        "solve_rate": 0.9212779973649539,
+        "rating": 1723,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2207",
+        "name": "Grundy's Game",
+        "solved_count": 1946,
+        "total_count": 2549,
+        "solve_rate": 0.7634366418203217,
+        "rating": 1849,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2208",
+        "name": "Another Game",
+        "solved_count": 2199,
+        "total_count": 2366,
+        "solve_rate": 0.9294167371090448,
+        "rating": 1807,
+        "color": "blue",
+        "color_name": "Blue"
+      }
+    ]
+  },
+  {
+    "category": "String Algorithms",
+    "problems": [
+      {
+        "id": "1731",
+        "name": "Word Combinations",
+        "solved_count": 6669,
+        "total_count": 9523,
+        "solve_rate": 0.7003045258847002,
+        "rating": 1421,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1753",
+        "name": "String Matching",
+        "solved_count": 12790,
+        "total_count": 16962,
+        "solve_rate": 0.7540384388633415,
+        "rating": 1194,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1732",
+        "name": "Finding Borders",
+        "solved_count": 9395,
+        "total_count": 10245,
+        "solve_rate": 0.9170326988775013,
+        "rating": 1302,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1733",
+        "name": "Finding Periods",
+        "solved_count": 6668,
+        "total_count": 7537,
+        "solve_rate": 0.8847021361284331,
+        "rating": 1421,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1110",
+        "name": "Minimal Rotation",
+        "solved_count": 3293,
+        "total_count": 4893,
+        "solve_rate": 0.6730022481095442,
+        "rating": 1666,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1111",
+        "name": "Longest Palindrome",
+        "solved_count": 4907,
+        "total_count": 6411,
+        "solve_rate": 0.7654032132272657,
+        "rating": 1528,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3138",
+        "name": "All Palindromes",
+        "solved_count": 782,
+        "total_count": 881,
+        "solve_rate": 0.887627695800227,
+        "rating": 2166,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1112",
+        "name": "Required Substring",
+        "solved_count": 1902,
+        "total_count": 2835,
+        "solve_rate": 0.6708994708994709,
+        "rating": 1857,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2420",
+        "name": "Palindrome Queries",
+        "solved_count": 2316,
+        "total_count": 2683,
+        "solve_rate": 0.8632128214685054,
+        "rating": 1789,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2102",
+        "name": "Finding Patterns",
+        "solved_count": 2190,
+        "total_count": 3044,
+        "solve_rate": 0.7194480946123522,
+        "rating": 1808,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2103",
+        "name": "Counting Patterns",
+        "solved_count": 2081,
+        "total_count": 2552,
+        "solve_rate": 0.8154388714733543,
+        "rating": 1826,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2104",
+        "name": "Pattern Positions",
+        "solved_count": 1747,
+        "total_count": 2112,
+        "solve_rate": 0.8271780303030303,
+        "rating": 1887,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2105",
+        "name": "Distinct Substrings",
+        "solved_count": 1977,
+        "total_count": 2344,
+        "solve_rate": 0.8434300341296929,
+        "rating": 1844,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1149",
+        "name": "Distinct Subsequences",
+        "solved_count": 1255,
+        "total_count": 1331,
+        "solve_rate": 0.9429000751314801,
+        "rating": 2002,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2106",
+        "name": "Repeating Substring",
+        "solved_count": 2132,
+        "total_count": 2453,
+        "solve_rate": 0.8691398287810844,
+        "rating": 1817,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2107",
+        "name": "String Functions",
+        "solved_count": 1868,
+        "total_count": 1956,
+        "solve_rate": 0.9550102249488752,
+        "rating": 1863,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3225",
+        "name": "Inverse Suffix Array",
+        "solved_count": 321,
+        "total_count": 371,
+        "solve_rate": 0.8652291105121294,
+        "rating": 2476,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1113",
+        "name": "String Transform",
+        "solved_count": 636,
+        "total_count": 760,
+        "solve_rate": 0.8368421052631579,
+        "rating": 2238,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2108",
+        "name": "Substring Order I",
+        "solved_count": 1358,
+        "total_count": 1504,
+        "solve_rate": 0.9029255319148937,
+        "rating": 1974,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2109",
+        "name": "Substring Order II",
+        "solved_count": 903,
+        "total_count": 1169,
+        "solve_rate": 0.7724550898203593,
+        "rating": 2116,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2110",
+        "name": "Substring Distribution",
+        "solved_count": 1257,
+        "total_count": 1360,
+        "solve_rate": 0.924264705882353,
+        "rating": 2001,
+        "color": "yellow",
+        "color_name": "Yellow"
+      }
+    ]
+  },
+  {
+    "category": "Geometry",
+    "problems": [
+      {
+        "id": "2189",
+        "name": "Point Location Test",
+        "solved_count": 8155,
+        "total_count": 9064,
+        "solve_rate": 0.8997131509267432,
+        "rating": 1351,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2190",
+        "name": "Line Segment Intersection",
+        "solved_count": 4827,
+        "total_count": 6026,
+        "solve_rate": 0.8010288748755393,
+        "rating": 1533,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2191",
+        "name": "Polygon Area",
+        "solved_count": 5565,
+        "total_count": 5871,
+        "solve_rate": 0.9478794072560041,
+        "rating": 1484,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2192",
+        "name": "Point in Polygon",
+        "solved_count": 3084,
+        "total_count": 3903,
+        "solve_rate": 0.7901614142966948,
+        "rating": 1689,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2193",
+        "name": "Polygon Lattice Points",
+        "solved_count": 2587,
+        "total_count": 2673,
+        "solve_rate": 0.9678264122708568,
+        "rating": 1750,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2194",
+        "name": "Minimum Euclidean Distance",
+        "solved_count": 2225,
+        "total_count": 3136,
+        "solve_rate": 0.7095025510204082,
+        "rating": 1802,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2195",
+        "name": "Convex Hull",
+        "solved_count": 3731,
+        "total_count": 4439,
+        "solve_rate": 0.8405046181572426,
+        "rating": 1623,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3410",
+        "name": "Maximum Manhattan Distances",
+        "solved_count": 713,
+        "total_count": 741,
+        "solve_rate": 0.9622132253711201,
+        "rating": 2198,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3411",
+        "name": "All Manhattan Distances",
+        "solved_count": 716,
+        "total_count": 785,
+        "solve_rate": 0.9121019108280255,
+        "rating": 2197,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1740",
+        "name": "Intersection Points",
+        "solved_count": 2202,
+        "total_count": 2374,
+        "solve_rate": 0.9275484414490311,
+        "rating": 1806,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3427",
+        "name": "Line Segments Trace I",
+        "solved_count": 396,
+        "total_count": 409,
+        "solve_rate": 0.9682151589242054,
+        "rating": 2403,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3428",
+        "name": "Line Segments Trace II",
+        "solved_count": 328,
+        "total_count": 345,
+        "solve_rate": 0.9507246376811594,
+        "rating": 2468,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3429",
+        "name": "Lines and Queries I",
+        "solved_count": 444,
+        "total_count": 463,
+        "solve_rate": 0.958963282937365,
+        "rating": 2363,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3430",
+        "name": "Lines and Queries II",
+        "solved_count": 394,
+        "total_count": 408,
+        "solve_rate": 0.9656862745098039,
+        "rating": 2404,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1741",
+        "name": "Area of Rectangles",
+        "solved_count": 1272,
+        "total_count": 1419,
+        "solve_rate": 0.8964059196617337,
+        "rating": 1997,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1742",
+        "name": "Robot Path",
+        "solved_count": 341,
+        "total_count": 635,
+        "solve_rate": 0.537007874015748,
+        "rating": 2455,
+        "color": "orange",
+        "color_name": "Orange"
+      }
+    ]
+  },
+  {
+    "category": "Advanced Techniques",
+    "problems": [
+      {
+        "id": "1628",
+        "name": "Meet in the Middle",
+        "solved_count": 7397,
+        "total_count": 10129,
+        "solve_rate": 0.7302793957942542,
+        "rating": 1385,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2136",
+        "name": "Hamming Distance",
+        "solved_count": 3485,
+        "total_count": 3809,
+        "solve_rate": 0.9149383040168023,
+        "rating": 1646,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3360",
+        "name": "Corner Subgrid Check",
+        "solved_count": 386,
+        "total_count": 590,
+        "solve_rate": 0.6542372881355932,
+        "rating": 2411,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2137",
+        "name": "Corner Subgrid Count",
+        "solved_count": 2394,
+        "total_count": 2701,
+        "solve_rate": 0.8863383931877082,
+        "rating": 1777,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2138",
+        "name": "Reachable Nodes",
+        "solved_count": 2482,
+        "total_count": 2667,
+        "solve_rate": 0.9306336707911511,
+        "rating": 1764,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2143",
+        "name": "Reachability Queries",
+        "solved_count": 1660,
+        "total_count": 1947,
+        "solve_rate": 0.8525937339496662,
+        "rating": 1904,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2072",
+        "name": "Cut and Paste",
+        "solved_count": 1696,
+        "total_count": 1874,
+        "solve_rate": 0.9050160085378869,
+        "rating": 1897,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2073",
+        "name": "Substring Reversals",
+        "solved_count": 1495,
+        "total_count": 1618,
+        "solve_rate": 0.9239802224969098,
+        "rating": 1941,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2074",
+        "name": "Reversals and Sums",
+        "solved_count": 1519,
+        "total_count": 1626,
+        "solve_rate": 0.9341943419434194,
+        "rating": 1935,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2076",
+        "name": "Necessary Roads",
+        "solved_count": 2177,
+        "total_count": 2234,
+        "solve_rate": 0.9744852282900627,
+        "rating": 1810,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2077",
+        "name": "Necessary Cities",
+        "solved_count": 2028,
+        "total_count": 2120,
+        "solve_rate": 0.9566037735849057,
+        "rating": 1835,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2078",
+        "name": "Eulerian Subgraphs",
+        "solved_count": 872,
+        "total_count": 918,
+        "solve_rate": 0.9498910675381264,
+        "rating": 2128,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2084",
+        "name": "Monster Game I",
+        "solved_count": 1289,
+        "total_count": 1430,
+        "solve_rate": 0.9013986013986014,
+        "rating": 1992,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2085",
+        "name": "Monster Game II",
+        "solved_count": 1137,
+        "total_count": 1215,
+        "solve_rate": 0.9358024691358025,
+        "rating": 2036,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2086",
+        "name": "Subarray Squares",
+        "solved_count": 1612,
+        "total_count": 1877,
+        "solve_rate": 0.8588172615876398,
+        "rating": 1915,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2087",
+        "name": "Houses and Schools",
+        "solved_count": 878,
+        "total_count": 1045,
+        "solve_rate": 0.8401913875598086,
+        "rating": 2126,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2088",
+        "name": "Knuth Division",
+        "solved_count": 1058,
+        "total_count": 1188,
+        "solve_rate": 0.8905723905723906,
+        "rating": 2061,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2111",
+        "name": "Apples and Bananas",
+        "solved_count": 1211,
+        "total_count": 1313,
+        "solve_rate": 0.9223153084539223,
+        "rating": 2014,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2112",
+        "name": "One Bit Positions",
+        "solved_count": 933,
+        "total_count": 1016,
+        "solve_rate": 0.9183070866141733,
+        "rating": 2105,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2113",
+        "name": "Signal Processing",
+        "solved_count": 905,
+        "total_count": 967,
+        "solve_rate": 0.9358841778697001,
+        "rating": 2115,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2101",
+        "name": "New Roads Queries",
+        "solved_count": 2463,
+        "total_count": 2972,
+        "solve_rate": 0.8287348586810229,
+        "rating": 1767,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2133",
+        "name": "Dynamic Connectivity",
+        "solved_count": 1125,
+        "total_count": 1265,
+        "solve_rate": 0.8893280632411067,
+        "rating": 2040,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2121",
+        "name": "Parcel Delivery",
+        "solved_count": 870,
+        "total_count": 956,
+        "solve_rate": 0.9100418410041841,
+        "rating": 2129,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2129",
+        "name": "Task Assignment",
+        "solved_count": 1006,
+        "total_count": 1083,
+        "solve_rate": 0.9289012003693444,
+        "rating": 2078,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2130",
+        "name": "Distinct Routes II",
+        "solved_count": 663,
+        "total_count": 752,
+        "solve_rate": 0.8816489361702128,
+        "rating": 2223,
+        "color": "yellow",
+        "color_name": "Yellow"
+      }
+    ]
+  },
+  {
+    "category": "Sliding Window Problems",
+    "problems": [
+      {
+        "id": "3220",
+        "name": "Sliding Window Sum",
+        "solved_count": 6655,
+        "total_count": 6887,
+        "solve_rate": 0.9663133439814142,
+        "rating": 1422,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3221",
+        "name": "Sliding Window Minimum",
+        "solved_count": 4964,
+        "total_count": 5667,
+        "solve_rate": 0.8759484736191989,
+        "rating": 1523,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3426",
+        "name": "Sliding Window Xor",
+        "solved_count": 4908,
+        "total_count": 4977,
+        "solve_rate": 0.9861362266425557,
+        "rating": 1527,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3405",
+        "name": "Sliding Window Or",
+        "solved_count": 2190,
+        "total_count": 3683,
+        "solve_rate": 0.5946239478685854,
+        "rating": 1808,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3222",
+        "name": "Sliding Window Distinct Values",
+        "solved_count": 3399,
+        "total_count": 4076,
+        "solve_rate": 0.8339057899901865,
+        "rating": 1655,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3224",
+        "name": "Sliding Window Mode",
+        "solved_count": 2722,
+        "total_count": 2891,
+        "solve_rate": 0.9415427187824282,
+        "rating": 1732,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3219",
+        "name": "Sliding Window Mex",
+        "solved_count": 2536,
+        "total_count": 2673,
+        "solve_rate": 0.9487467265245043,
+        "rating": 1757,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1076",
+        "name": "Sliding Window Median",
+        "solved_count": 14625,
+        "total_count": 16657,
+        "solve_rate": 0.8780092453623102,
+        "rating": 1148,
+        "color": "green",
+        "color_name": "Green"
+      },
+      {
+        "id": "1077",
+        "name": "Sliding Window Cost",
+        "solved_count": 9559,
+        "total_count": 11009,
+        "solve_rate": 0.8682895812517032,
+        "rating": 1296,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3223",
+        "name": "Sliding Window Inversions",
+        "solved_count": 1388,
+        "total_count": 1470,
+        "solve_rate": 0.9442176870748299,
+        "rating": 1967,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3227",
+        "name": "Sliding Window Advertisement",
+        "solved_count": 276,
+        "total_count": 431,
+        "solve_rate": 0.6403712296983759,
+        "rating": 2528,
+        "color": "orange",
+        "color_name": "Orange"
+      }
+    ]
+  },
+  {
+    "category": "Interactive Problems",
+    "problems": [
+      {
+        "id": "3112",
+        "name": "Hidden Integer",
+        "solved_count": 2574,
+        "total_count": 2680,
+        "solve_rate": 0.9604477611940299,
+        "rating": 1752,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3139",
+        "name": "Hidden Permutation",
+        "solved_count": 1137,
+        "total_count": 1320,
+        "solve_rate": 0.8613636363636363,
+        "rating": 2036,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3305",
+        "name": "K-th Highest Score",
+        "solved_count": 511,
+        "total_count": 616,
+        "solve_rate": 0.8295454545454546,
+        "rating": 2314,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3228",
+        "name": "Permuted Binary Strings",
+        "solved_count": 616,
+        "total_count": 631,
+        "solve_rate": 0.9762282091917591,
+        "rating": 2249,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3273",
+        "name": "Colored Chairs",
+        "solved_count": 573,
+        "total_count": 605,
+        "solve_rate": 0.947107438016529,
+        "rating": 2274,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3140",
+        "name": "Inversion Sorting",
+        "solved_count": 331,
+        "total_count": 369,
+        "solve_rate": 0.8970189701897019,
+        "rating": 2465,
+        "color": "orange",
+        "color_name": "Orange"
+      }
+    ]
+  },
+  {
+    "category": "Bitwise Operations",
+    "problems": [
+      {
+        "id": "1146",
+        "name": "Counting Bits",
+        "solved_count": 5614,
+        "total_count": 7246,
+        "solve_rate": 0.7747722881589842,
+        "rating": 1481,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "1655",
+        "name": "Maximum Xor Subarray",
+        "solved_count": 3329,
+        "total_count": 3804,
+        "solve_rate": 0.8751314405888538,
+        "rating": 1662,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3191",
+        "name": "Maximum Xor Subset",
+        "solved_count": 1155,
+        "total_count": 1262,
+        "solve_rate": 0.9152139461172741,
+        "rating": 2030,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3211",
+        "name": "Number of Subset Xors",
+        "solved_count": 1016,
+        "total_count": 1038,
+        "solve_rate": 0.9788053949903661,
+        "rating": 2075,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3192",
+        "name": "K Subset Xors",
+        "solved_count": 525,
+        "total_count": 619,
+        "solve_rate": 0.8481421647819063,
+        "rating": 2305,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3233",
+        "name": "All Subarray Xors",
+        "solved_count": 318,
+        "total_count": 508,
+        "solve_rate": 0.6259842519685039,
+        "rating": 2479,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2419",
+        "name": "Xor Pyramid Peak",
+        "solved_count": 2240,
+        "total_count": 2705,
+        "solve_rate": 0.8280961182994455,
+        "rating": 1800,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3194",
+        "name": "Xor Pyramid Diagonal",
+        "solved_count": 363,
+        "total_count": 407,
+        "solve_rate": 0.8918918918918919,
+        "rating": 2433,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3195",
+        "name": "Xor Pyramid Row",
+        "solved_count": 314,
+        "total_count": 369,
+        "solve_rate": 0.8509485094850948,
+        "rating": 2483,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1654",
+        "name": "SOS Bit Problem",
+        "solved_count": 2364,
+        "total_count": 2510,
+        "solve_rate": 0.9418326693227091,
+        "rating": 1781,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3141",
+        "name": "And Subset Count",
+        "solved_count": 498,
+        "total_count": 520,
+        "solve_rate": 0.9576923076923077,
+        "rating": 2323,
+        "color": "yellow",
+        "color_name": "Yellow"
+      }
+    ]
+  },
+  {
+    "category": "Construction Problems",
+    "problems": [
+      {
+        "id": "2214",
+        "name": "Inverse Inversions",
+        "solved_count": 1872,
+        "total_count": 1995,
+        "solve_rate": 0.9383458646616541,
+        "rating": 1863,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2215",
+        "name": "Monotone Subsequences",
+        "solved_count": 1137,
+        "total_count": 1341,
+        "solve_rate": 0.8478747203579419,
+        "rating": 2036,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3422",
+        "name": "Third Permutation",
+        "solved_count": 476,
+        "total_count": 572,
+        "solve_rate": 0.8321678321678322,
+        "rating": 2339,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3423",
+        "name": "Permutation Prime Sums",
+        "solved_count": 484,
+        "total_count": 521,
+        "solve_rate": 0.9289827255278311,
+        "rating": 2333,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1697",
+        "name": "Chess Tournament",
+        "solved_count": 1309,
+        "total_count": 1512,
+        "solve_rate": 0.8657407407407407,
+        "rating": 1987,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3424",
+        "name": "Distinct Sums Grid",
+        "solved_count": 170,
+        "total_count": 250,
+        "solve_rate": 0.68,
+        "rating": 2697,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2423",
+        "name": "Filling Trominos",
+        "solved_count": 277,
+        "total_count": 481,
+        "solve_rate": 0.5758835758835759,
+        "rating": 2527,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2418",
+        "name": "Grid Path Construction",
+        "solved_count": 149,
+        "total_count": 473,
+        "solve_rate": 0.3150105708245243,
+        "rating": 2742,
+        "color": "orange",
+        "color_name": "Orange"
+      }
+    ]
+  },
+  {
+    "category": "Advanced Graph Problems",
+    "problems": [
+      {
+        "id": "3303",
+        "name": "Nearest Shops",
+        "solved_count": 800,
+        "total_count": 1030,
+        "solve_rate": 0.7766990291262136,
+        "rating": 2158,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1134",
+        "name": "Prüfer Code",
+        "solved_count": 1628,
+        "total_count": 1750,
+        "solve_rate": 0.9302857142857143,
+        "rating": 1911,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1702",
+        "name": "Tree Traversals",
+        "solved_count": 1331,
+        "total_count": 1462,
+        "solve_rate": 0.9103967168262654,
+        "rating": 1981,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1757",
+        "name": "Course Schedule II",
+        "solved_count": 2119,
+        "total_count": 3008,
+        "solve_rate": 0.7044547872340425,
+        "rating": 1819,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1756",
+        "name": "Acyclic Graph Edges",
+        "solved_count": 2345,
+        "total_count": 2482,
+        "solve_rate": 0.9448025785656728,
+        "rating": 1784,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2177",
+        "name": "Strongly Connected Edges",
+        "solved_count": 1650,
+        "total_count": 1931,
+        "solve_rate": 0.8544795442775763,
+        "rating": 1906,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2179",
+        "name": "Even Outdegree Edges",
+        "solved_count": 1468,
+        "total_count": 1709,
+        "solve_rate": 0.8589818607372732,
+        "rating": 1947,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1707",
+        "name": "Graph Girth",
+        "solved_count": 3705,
+        "total_count": 4193,
+        "solve_rate": 0.8836155497257334,
+        "rating": 1625,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3357",
+        "name": "Fixed Length Walk Queries",
+        "solved_count": 397,
+        "total_count": 441,
+        "solve_rate": 0.9002267573696145,
+        "rating": 2402,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3111",
+        "name": "Transfer Speeds Sum",
+        "solved_count": 467,
+        "total_count": 481,
+        "solve_rate": 0.9708939708939709,
+        "rating": 2345,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3407",
+        "name": "MST Edge Check",
+        "solved_count": 732,
+        "total_count": 796,
+        "solve_rate": 0.9195979899497487,
+        "rating": 2189,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3408",
+        "name": "MST Edge Set Check",
+        "solved_count": 274,
+        "total_count": 309,
+        "solve_rate": 0.8867313915857605,
+        "rating": 2531,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3409",
+        "name": "MST Edge Cost",
+        "solved_count": 439,
+        "total_count": 459,
+        "solve_rate": 0.9564270152505446,
+        "rating": 2367,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1677",
+        "name": "Network Breakdown",
+        "solved_count": 1253,
+        "total_count": 1363,
+        "solve_rate": 0.9192956713132795,
+        "rating": 2002,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3114",
+        "name": "Tree Coin Collecting I",
+        "solved_count": 397,
+        "total_count": 431,
+        "solve_rate": 0.9211136890951276,
+        "rating": 2402,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3149",
+        "name": "Tree Coin Collecting II",
+        "solved_count": 220,
+        "total_count": 254,
+        "solve_rate": 0.8661417322834646,
+        "rating": 2607,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1700",
+        "name": "Tree Isomorphism I",
+        "solved_count": 1159,
+        "total_count": 1374,
+        "solve_rate": 0.8435225618631732,
+        "rating": 2029,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1701",
+        "name": "Tree Isomorphism II",
+        "solved_count": 954,
+        "total_count": 1098,
+        "solve_rate": 0.8688524590163934,
+        "rating": 2097,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1699",
+        "name": "Flight Route Requests",
+        "solved_count": 534,
+        "total_count": 661,
+        "solve_rate": 0.8078668683812406,
+        "rating": 2299,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1703",
+        "name": "Critical Cities",
+        "solved_count": 458,
+        "total_count": 700,
+        "solve_rate": 0.6542857142857142,
+        "rating": 2352,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1203",
+        "name": "Visiting Cities",
+        "solved_count": 723,
+        "total_count": 952,
+        "solve_rate": 0.759453781512605,
+        "rating": 2193,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3308",
+        "name": "Graph Coloring",
+        "solved_count": 250,
+        "total_count": 293,
+        "solve_rate": 0.8532423208191127,
+        "rating": 2562,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3158",
+        "name": "Bus Companies",
+        "solved_count": 296,
+        "total_count": 304,
+        "solve_rate": 0.9736842105263158,
+        "rating": 2504,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3358",
+        "name": "Split into Two Paths",
+        "solved_count": 111,
+        "total_count": 197,
+        "solve_rate": 0.5634517766497462,
+        "rating": 2845,
+        "color": "red",
+        "color_name": "Red"
+      },
+      {
+        "id": "1704",
+        "name": "Network Renovation",
+        "solved_count": 989,
+        "total_count": 1306,
+        "solve_rate": 0.7572741194486983,
+        "rating": 2084,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1705",
+        "name": "Forbidden Cities",
+        "solved_count": 902,
+        "total_count": 1174,
+        "solve_rate": 0.768313458262351,
+        "rating": 2116,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1752",
+        "name": "Creating Offices",
+        "solved_count": 446,
+        "total_count": 585,
+        "solve_rate": 0.7623931623931623,
+        "rating": 2361,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1685",
+        "name": "New Flight Routes",
+        "solved_count": 357,
+        "total_count": 948,
+        "solve_rate": 0.37658227848101267,
+        "rating": 2439,
+        "color": "orange",
+        "color_name": "Orange"
+      }
+    ]
+  },
+  {
+    "category": "Counting Problems",
+    "problems": [
+      {
+        "id": "3413",
+        "name": "Filled Subgrid Count I",
+        "solved_count": 645,
+        "total_count": 723,
+        "solve_rate": 0.8921161825726142,
+        "rating": 2233,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3414",
+        "name": "Filled Subgrid Count II",
+        "solved_count": 354,
+        "total_count": 437,
+        "solve_rate": 0.8100686498855835,
+        "rating": 2442,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3415",
+        "name": "All Letter Subgrid Count I",
+        "solved_count": 200,
+        "total_count": 295,
+        "solve_rate": 0.6779661016949152,
+        "rating": 2640,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3416",
+        "name": "All Letter Subgrid Count II",
+        "solved_count": 153,
+        "total_count": 195,
+        "solve_rate": 0.7846153846153846,
+        "rating": 2733,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3417",
+        "name": "Border Subgrid Count I",
+        "solved_count": 107,
+        "total_count": 188,
+        "solve_rate": 0.5691489361702128,
+        "rating": 2857,
+        "color": "red",
+        "color_name": "Red"
+      },
+      {
+        "id": "3418",
+        "name": "Border Subgrid Count II",
+        "solved_count": 118,
+        "total_count": 137,
+        "solve_rate": 0.8613138686131386,
+        "rating": 2823,
+        "color": "red",
+        "color_name": "Red"
+      },
+      {
+        "id": "3400",
+        "name": "Raab Game II",
+        "solved_count": 120,
+        "total_count": 138,
+        "solve_rate": 0.8695652173913043,
+        "rating": 2818,
+        "color": "red",
+        "color_name": "Red"
+      },
+      {
+        "id": "1080",
+        "name": "Empty String",
+        "solved_count": 1804,
+        "total_count": 2184,
+        "solve_rate": 0.826007326007326,
+        "rating": 1875,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2229",
+        "name": "Permutation Inversions",
+        "solved_count": 1083,
+        "total_count": 1195,
+        "solve_rate": 0.906276150627615,
+        "rating": 2053,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2176",
+        "name": "Counting Bishops",
+        "solved_count": 421,
+        "total_count": 468,
+        "solve_rate": 0.8995726495726496,
+        "rating": 2381,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2228",
+        "name": "Counting Sequences",
+        "solved_count": 722,
+        "total_count": 777,
+        "solve_rate": 0.9292149292149292,
+        "rating": 2194,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1078",
+        "name": "Grid Paths II",
+        "solved_count": 817,
+        "total_count": 1022,
+        "solve_rate": 0.799412915851272,
+        "rating": 2151,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1075",
+        "name": "Counting Permutations",
+        "solved_count": 946,
+        "total_count": 1067,
+        "solve_rate": 0.8865979381443299,
+        "rating": 2100,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2429",
+        "name": "Grid Completion",
+        "solved_count": 238,
+        "total_count": 302,
+        "solve_rate": 0.7880794701986755,
+        "rating": 2580,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2421",
+        "name": "Counting Reorders",
+        "solved_count": 272,
+        "total_count": 381,
+        "solve_rate": 0.7139107611548556,
+        "rating": 2533,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3232",
+        "name": "Tournament Graph Distribution",
+        "solved_count": 123,
+        "total_count": 132,
+        "solve_rate": 0.9318181818181818,
+        "rating": 2809,
+        "color": "red",
+        "color_name": "Red"
+      },
+      {
+        "id": "3157",
+        "name": "Collecting Numbers Distribution",
+        "solved_count": 129,
+        "total_count": 136,
+        "solve_rate": 0.9485294117647058,
+        "rating": 2792,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2415",
+        "name": "Functional Graph Distribution",
+        "solved_count": 258,
+        "total_count": 318,
+        "solve_rate": 0.8113207547169812,
+        "rating": 2551,
+        "color": "orange",
+        "color_name": "Orange"
+      }
+    ]
+  },
+  {
+    "category": "Additional Problems I",
+    "problems": [
+      {
+        "id": "1087",
+        "name": "Shortest Subsequence",
+        "solved_count": 3144,
+        "total_count": 4132,
+        "solve_rate": 0.7608906098741529,
+        "rating": 1682,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3150",
+        "name": "Distinct Values Sum",
+        "solved_count": 745,
+        "total_count": 769,
+        "solve_rate": 0.9687906371911573,
+        "rating": 2183,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3190",
+        "name": "Distinct Values Splits",
+        "solved_count": 530,
+        "total_count": 564,
+        "solve_rate": 0.9397163120567376,
+        "rating": 2301,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1670",
+        "name": "Swap Game",
+        "solved_count": 2152,
+        "total_count": 2759,
+        "solve_rate": 0.7799927509967379,
+        "rating": 1814,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3175",
+        "name": "Beautiful Permutation II",
+        "solved_count": 630,
+        "total_count": 954,
+        "solve_rate": 0.660377358490566,
+        "rating": 2241,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2422",
+        "name": "Multiplication Table",
+        "solved_count": 7331,
+        "total_count": 8160,
+        "solve_rate": 0.8984068627450981,
+        "rating": 1388,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "3151",
+        "name": "Bubble Sort Rounds I",
+        "solved_count": 465,
+        "total_count": 528,
+        "solve_rate": 0.8806818181818182,
+        "rating": 2347,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3152",
+        "name": "Bubble Sort Rounds II",
+        "solved_count": 312,
+        "total_count": 349,
+        "solve_rate": 0.8939828080229226,
+        "rating": 2485,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3306",
+        "name": "Nearest Campsites I",
+        "solved_count": 203,
+        "total_count": 237,
+        "solve_rate": 0.8565400843881856,
+        "rating": 2635,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3307",
+        "name": "Nearest Campsites II",
+        "solved_count": 198,
+        "total_count": 212,
+        "solve_rate": 0.9339622641509434,
+        "rating": 2644,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1142",
+        "name": "Advertisement",
+        "solved_count": 4647,
+        "total_count": 4921,
+        "solve_rate": 0.9443202601097338,
+        "rating": 1546,
+        "color": "cyan",
+        "color_name": "Cyan"
+      },
+      {
+        "id": "2186",
+        "name": "Special Substrings",
+        "solved_count": 1034,
+        "total_count": 1134,
+        "solve_rate": 0.9118165784832452,
+        "rating": 2069,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3169",
+        "name": "Counting LCM Arrays",
+        "solved_count": 304,
+        "total_count": 332,
+        "solve_rate": 0.9156626506024096,
+        "rating": 2494,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3193",
+        "name": "Square Subsets",
+        "solved_count": 245,
+        "total_count": 272,
+        "solve_rate": 0.9007352941176471,
+        "rating": 2569,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3294",
+        "name": "Subarray Sum Constraints",
+        "solved_count": 461,
+        "total_count": 493,
+        "solve_rate": 0.9350912778904665,
+        "rating": 2350,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3213",
+        "name": "Water Containers Moves",
+        "solved_count": 197,
+        "total_count": 208,
+        "solve_rate": 0.9471153846153846,
+        "rating": 2645,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3214",
+        "name": "Water Containers Queries",
+        "solved_count": 232,
+        "total_count": 244,
+        "solve_rate": 0.9508196721311475,
+        "rating": 2588,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2425",
+        "name": "Stack Weights",
+        "solved_count": 623,
+        "total_count": 745,
+        "solve_rate": 0.836241610738255,
+        "rating": 2245,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3301",
+        "name": "Maximum Average Subarrays",
+        "solved_count": 189,
+        "total_count": 209,
+        "solve_rate": 0.9043062200956937,
+        "rating": 2660,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3302",
+        "name": "Subsets with Fixed Average",
+        "solved_count": 231,
+        "total_count": 253,
+        "solve_rate": 0.9130434782608695,
+        "rating": 2590,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3361",
+        "name": "Two Array Average",
+        "solved_count": 234,
+        "total_count": 262,
+        "solve_rate": 0.8931297709923665,
+        "rating": 2585,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1747",
+        "name": "Pyramid Array",
+        "solved_count": 809,
+        "total_count": 974,
+        "solve_rate": 0.8305954825462012,
+        "rating": 2154,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3404",
+        "name": "Permutation Subsequence",
+        "solved_count": 280,
+        "total_count": 289,
+        "solve_rate": 0.9688581314878892,
+        "rating": 2523,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1188",
+        "name": "Bit Inversions",
+        "solved_count": 2457,
+        "total_count": 2774,
+        "solve_rate": 0.8857245854361933,
+        "rating": 1768,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1086",
+        "name": "Writing Numbers",
+        "solved_count": 776,
+        "total_count": 838,
+        "solve_rate": 0.9260143198090692,
+        "rating": 2169,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2427",
+        "name": "Letter Pair Move Game",
+        "solved_count": 215,
+        "total_count": 297,
+        "solve_rate": 0.7239057239057239,
+        "rating": 2615,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1147",
+        "name": "Maximum Building I",
+        "solved_count": 2189,
+        "total_count": 2282,
+        "solve_rate": 0.9592462751971954,
+        "rating": 1808,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1162",
+        "name": "Sorting Methods",
+        "solved_count": 810,
+        "total_count": 865,
+        "solve_rate": 0.9364161849710982,
+        "rating": 2154,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1191",
+        "name": "Cyclic Array",
+        "solved_count": 1287,
+        "total_count": 1459,
+        "solve_rate": 0.882111034955449,
+        "rating": 1993,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2414",
+        "name": "List of Sums",
+        "solved_count": 516,
+        "total_count": 670,
+        "solve_rate": 0.7701492537313432,
+        "rating": 2311,
+        "color": "yellow",
+        "color_name": "Yellow"
+      }
+    ]
+  },
+  {
+    "category": "Additional Problems II",
+    "problems": [
+      {
+        "id": "3215",
+        "name": "Bouncing Ball Steps",
+        "solved_count": 268,
+        "total_count": 295,
+        "solve_rate": 0.9084745762711864,
+        "rating": 2538,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3216",
+        "name": "Bouncing Ball Cycle",
+        "solved_count": 105,
+        "total_count": 146,
+        "solve_rate": 0.7191780821917808,
+        "rating": 2864,
+        "color": "red",
+        "color_name": "Red"
+      },
+      {
+        "id": "3218",
+        "name": "Knight Moves Queries",
+        "solved_count": 132,
+        "total_count": 158,
+        "solve_rate": 0.8354430379746836,
+        "rating": 2784,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3108",
+        "name": "K Subset Sums I",
+        "solved_count": 213,
+        "total_count": 273,
+        "solve_rate": 0.7802197802197802,
+        "rating": 2618,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3109",
+        "name": "K Subset Sums II",
+        "solved_count": 125,
+        "total_count": 158,
+        "solve_rate": 0.7911392405063291,
+        "rating": 2803,
+        "color": "red",
+        "color_name": "Red"
+      },
+      {
+        "id": "2132",
+        "name": "Increasing Array II",
+        "solved_count": 858,
+        "total_count": 977,
+        "solve_rate": 0.8781985670419652,
+        "rating": 2134,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1189",
+        "name": "Food Division",
+        "solved_count": 549,
+        "total_count": 658,
+        "solve_rate": 0.8343465045592705,
+        "rating": 2289,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1698",
+        "name": "Swap Round Sorting",
+        "solved_count": 431,
+        "total_count": 534,
+        "solve_rate": 0.8071161048689138,
+        "rating": 2373,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2430",
+        "name": "Binary Subsequences",
+        "solved_count": 305,
+        "total_count": 442,
+        "solve_rate": 0.6900452488687783,
+        "rating": 2493,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1706",
+        "name": "School Excursion",
+        "solved_count": 1466,
+        "total_count": 1550,
+        "solve_rate": 0.9458064516129032,
+        "rating": 1948,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "1709",
+        "name": "Coin Grid",
+        "solved_count": 944,
+        "total_count": 1102,
+        "solve_rate": 0.8566243194192378,
+        "rating": 2101,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3312",
+        "name": "Grid Coloring II",
+        "solved_count": 149,
+        "total_count": 194,
+        "solve_rate": 0.7680412371134021,
+        "rating": 2742,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2426",
+        "name": "Programmers and Artists",
+        "solved_count": 534,
+        "total_count": 747,
+        "solve_rate": 0.714859437751004,
+        "rating": 2299,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2174",
+        "name": "Removing Digits II",
+        "solved_count": 226,
+        "total_count": 489,
+        "solve_rate": 0.4621676891615542,
+        "rating": 2598,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2180",
+        "name": "Coin Arrangement",
+        "solved_count": 354,
+        "total_count": 471,
+        "solve_rate": 0.7515923566878981,
+        "rating": 2442,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3159",
+        "name": "Replace with Difference",
+        "solved_count": 145,
+        "total_count": 172,
+        "solve_rate": 0.8430232558139535,
+        "rating": 2752,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "2432",
+        "name": "Grid Puzzle I",
+        "solved_count": 572,
+        "total_count": 627,
+        "solve_rate": 0.9122807017543859,
+        "rating": 2275,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2131",
+        "name": "Grid Puzzle II",
+        "solved_count": 556,
+        "total_count": 609,
+        "solve_rate": 0.9129720853858785,
+        "rating": 2285,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2115",
+        "name": "Bit Substrings",
+        "solved_count": 419,
+        "total_count": 508,
+        "solve_rate": 0.8248031496062992,
+        "rating": 2383,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "2075",
+        "name": "Reversal Sorting",
+        "solved_count": 375,
+        "total_count": 453,
+        "solve_rate": 0.8278145695364238,
+        "rating": 2421,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1159",
+        "name": "Book Shop II",
+        "solved_count": 1328,
+        "total_count": 1510,
+        "solve_rate": 0.8794701986754967,
+        "rating": 1982,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3161",
+        "name": "GCD Subsets",
+        "solved_count": 447,
+        "total_count": 460,
+        "solve_rate": 0.9717391304347827,
+        "rating": 2360,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "3402",
+        "name": "Minimum Cost Pairs",
+        "solved_count": 154,
+        "total_count": 199,
+        "solve_rate": 0.7738693467336684,
+        "rating": 2731,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "3425",
+        "name": "Same Sum Subsets",
+        "solved_count": 130,
+        "total_count": 255,
+        "solve_rate": 0.5098039215686274,
+        "rating": 2790,
+        "color": "orange",
+        "color_name": "Orange"
+      },
+      {
+        "id": "1157",
+        "name": "Mex Grid Queries",
+        "solved_count": 890,
+        "total_count": 1041,
+        "solve_rate": 0.8549471661863592,
+        "rating": 2121,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1148",
+        "name": "Maximum Building II",
+        "solved_count": 466,
+        "total_count": 574,
+        "solve_rate": 0.8118466898954704,
+        "rating": 2346,
+        "color": "yellow",
+        "color_name": "Yellow"
+      },
+      {
+        "id": "1161",
+        "name": "Stick Divisions",
+        "solved_count": 3981,
+        "total_count": 4651,
+        "solve_rate": 0.8559449580735325,
+        "rating": 1600,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "3401",
+        "name": "Stick Difference",
+        "solved_count": 71,
+        "total_count": 278,
+        "solve_rate": 0.25539568345323743,
+        "rating": 3000,
+        "color": "red",
+        "color_name": "Red"
+      },
+      {
+        "id": "1665",
+        "name": "Coding Company",
+        "solved_count": 1580,
+        "total_count": 2065,
+        "solve_rate": 0.7651331719128329,
+        "rating": 1921,
+        "color": "blue",
+        "color_name": "Blue"
+      },
+      {
+        "id": "2402",
+        "name": "Two Stacks Sorting",
+        "solved_count": 189,
+        "total_count": 601,
+        "solve_rate": 0.3144758735440932,
+        "rating": 2660,
+        "color": "orange",
+        "color_name": "Orange"
+      }
+    ]
+  }
+]
